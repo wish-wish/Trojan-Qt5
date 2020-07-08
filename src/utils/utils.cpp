@@ -3,6 +3,8 @@
 #include <QDir>
 #include <QStandardPaths>
 #include <QStyle>
+#include <QJsonObject>
+#include <QJsonDocument>
 
 Utils::Utils()
 {}
@@ -33,6 +35,11 @@ QString Utils::toCamelCase(const QString& s)
         parts[i].replace(0, 1, parts[i][0].toUpper());
 
     return parts.join(" ");
+}
+
+QString Utils::toQString(const QJsonObject &object)
+{
+    return QJsonDocument(object).toJson(QJsonDocument::Compact).toStdString().c_str();
 }
 
 QString Utils::getLogDir()

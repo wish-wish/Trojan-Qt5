@@ -7,8 +7,7 @@
 #include <QStandardPaths>
 
 ResourceHelper::ResourceHelper()
-{
-}
+{}
 
 bool ResourceHelper::isSystemProxyHelperExist()
 {

@@ -32,10 +32,12 @@ SubscribeDialog::SubscribeDialog(ConfigHelper *ch, QWidget *parent) :
     if (subscribes.size() == 0)
     {
         ui->urlLineEdit->setDisabled(true);
+        ui->groupNameLineEdit->setDisabled(true);
     }
     else
     {
         ui->urlLineEdit->setEnabled(true);
+        ui->groupNameLineEdit->setEnabled(true);
     }
 
     ui->autoUpdateCheckBox->setChecked(helper->isAutoUpdateSubscribes());
@@ -134,6 +136,7 @@ void SubscribeDialog::onAdd()
     SetSelectIndex(select_index);
 
     ui->urlLineEdit->setEnabled(true);
+    ui->groupNameLineEdit->setDisabled(true);
 }
 
 void SubscribeDialog::onDelete()
@@ -153,6 +156,7 @@ void SubscribeDialog::onDelete()
     if (subscribes.size() == 0)
     {
         ui->urlLineEdit->setDisabled(true);
+        ui->groupNameLineEdit->setDisabled(true);
     }
 }
 

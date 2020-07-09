@@ -554,6 +554,13 @@ void ConfigHelper::generateSocks5HttpJson(QString type, TQProfile &profile)
     QJsonObject system;
     system["statsInboundUplink"] = true;
     system["statsInboundDownlink"] = true;
+    if (coreSettings.countOutboundTraffic) {
+        system["statsOutboundUplink"] = true;
+        system["statsOutboundDownlink"] = true;
+    } else {
+        system["statsOutboundUplink"] = false;
+        system["statsOutboundDownlink"] = false;
+    }
     policy["system"] = system;
     configObj["policy"] = policy;
     QJsonObject routing;
@@ -772,8 +779,13 @@ void ConfigHelper::generateV2rayJson(TQProfile &profile)
     QJsonObject system;
     system["statsInboundUplink"] = true;
     system["statsInboundDownlink"] = true;
-    system["statsOutboundUplink"] = false;
-    system["statsOutboundUplink"] = false;
+    if (coreSettings.countOutboundTraffic) {
+        system["statsOutboundUplink"] = true;
+        system["statsOutboundDownlink"] = true;
+    } else {
+        system["statsOutboundUplink"] = false;
+        system["statsOutboundDownlink"] = false;
+    }
     policy["system"] = system;
     configObj["policy"] = policy;
     QJsonObject routing;

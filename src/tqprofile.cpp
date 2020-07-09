@@ -607,12 +607,12 @@ QString TQProfile::toSnellUri() const
 
 QDataStream& operator << (QDataStream &out, const TQProfile &p)
 {
-    out << p.type << p.autoStart << p.serverPort << p.name << p.serverAddress << p.verifyCertificate << p.password << p.sni << p.tcpFastOpen << p.reuseSession << p.sessionTicket << p.method << p.protocol << p.protocolParam << p.obfs << p.obfsParam << p.plugin << p.pluginParam << p.uuid << p.alterID << p.security << p.testsEnabled << p.vmessSettings << p.trojanGoSettings << p.latency << p.currentDownloadUsage << p.currentUploadUsage << p.totalDownloadUsage << p.totalUploadUsage << p.lastTime << p.nextResetDate;
+    out << p.type << p.group << p.autoStart << p.serverPort << p.name << p.serverAddress << p.verifyCertificate << p.password << p.sni << p.tcpFastOpen << p.reuseSession << p.sessionTicket << p.method << p.protocol << p.protocolParam << p.obfs << p.obfsParam << p.plugin << p.pluginParam << p.uuid << p.alterID << p.security << p.testsEnabled << p.vmessSettings << p.trojanGoSettings << p.latency << p.currentDownloadUsage << p.currentUploadUsage << p.totalDownloadUsage << p.totalUploadUsage << p.lastTime << p.nextResetDate;
     return out;
 }
 
 QDataStream& operator >> (QDataStream &in, TQProfile &p)
 {
-    in >> p.type >> p.autoStart >> p.serverPort >> p.name >> p.serverAddress >> p.verifyCertificate >> p.password >> p.sni >> p.tcpFastOpen >> p.reuseSession >> p.sessionTicket >> p.method >> p.protocol >> p.protocolParam >> p.obfs >> p.obfsParam >> p.plugin >> p.pluginParam >> p.uuid >> p.alterID >> p.security >> p.testsEnabled >> p.vmessSettings >> p.trojanGoSettings >> p.latency >> p.currentDownloadUsage >> p.currentUploadUsage >> p.totalDownloadUsage >> p.totalUploadUsage >> p.lastTime >> p.nextResetDate;
+    in >> p.type >> p.group >> p.autoStart >> p.serverPort >> p.name >> p.serverAddress >> p.verifyCertificate >> p.password >> p.sni >> p.tcpFastOpen >> p.reuseSession >> p.sessionTicket >> p.method >> p.protocol >> p.protocolParam >> p.obfs >> p.obfsParam >> p.plugin >> p.pluginParam >> p.uuid >> p.alterID >> p.security >> p.testsEnabled >> p.vmessSettings >> p.trojanGoSettings >> p.latency >> p.currentDownloadUsage >> p.currentUploadUsage >> p.totalDownloadUsage >> p.totalUploadUsage >> p.lastTime >> p.nextResetDate;
     return in;
 }

@@ -11,6 +11,7 @@
 #include <Cocoa/Cocoa.h>
 #include <QDesktopServices>
 #include <QColor>
+#include <QMap>
 
 StatusNotifier::StatusNotifier(MainWindow *w, ConfigHelper *ch, SubscribeManager *sm, QObject *parent) :
     QObject(parent),
@@ -200,21 +201,38 @@ void StatusNotifier::updateServersMenu()
 {
     QList<TQProfile> serverList = window->getAllServers();
     TQProfile connected = window->getConnectedServer();
+    QMap<QString, QMenu*> groups;
+    QList<QAction*> pendingList;
+
     serverMenu->clear();
     serverMenu->addMenu(addServerMenu);
     serverMenu->addSeparator();
+
     for (int i=0; i<serverList.size(); i++) {
         if (i < helper->getGeneralSettings().systemTrayMaximumServer || helper->getGeneralSettings().systemTrayMaximumServer == 0) {
+            if (groups.find(serverList[i].group) == groups.end() && !serverList[i].group.isEmpty())
+                groups[serverList[i].group] = new QMenu(serverList[i].group);
+
             QAction *action = new QAction(serverList[i].name, ServerGroup);
             action->setCheckable(false);
             action->setIcon(QIcon(QString(":/icons/icons/%1_off.png").arg(serverList[i].type)));
             if (serverList[i].equals(connected))
                 action->setIcon(QIcon(QString(":/icons/icons/%1_on.png").arg(serverList[i].type)));
-            serverMenu->addAction(action);
+
+            if (!serverList[i].group.isEmpty())
+                groups[serverList[i].group]->addAction(action);
+            else
+                pendingList.append(action);
         } else {
             break;
         }
     }
+
+    // add all menus and actions
+    for (QMenu *menu : groups)
+        serverMenu->addMenu(menu);
+    for (QAction *action : pendingList)
+        serverMenu->addAction(action);
 }
 
 void StatusNotifier::onToggleMode(QAction *action)

@@ -74,6 +74,8 @@ MainWindow::MainWindow(ConfigHelper *confHelper, QWidget *parent) :
     ui->toolBar->setToolButtonStyle(static_cast<Qt::ToolButtonStyle>
                                     (configHelper->getGeneralSettings().toolBarStyle));
 
+    // setup icon
+    ui->toolBar->setIconSize(Utils::mediumIconSize());
     setupActionIcon();
 
     // setup statusbar
@@ -83,11 +85,7 @@ MainWindow::MainWindow(ConfigHelper *confHelper, QWidget *parent) :
     ports.append(configHelper->getInboundSettings().socks5LocalPort);
     ports.append(configHelper->getInboundSettings().httpLocalPort);
     ports.append(configHelper->getInboundSettings().pacLocalPort);
-    QList<QString> stats;
-    stats.append("0 B");
-    stats.append("0 B");
-    stats.append("0 B");
-    stats.append("0 B");
+    QList<QString> stats({"0 B", "0 B", "0 B", "0 B"});
     m_statusBar->refresh(configHelper->getInboundSettings().enableIpv6Support ? (configHelper->getInboundSettings().shareOverLan ? "::" : "::1") : (configHelper->getInboundSettings().shareOverLan ? "0.0.0.0" : "127.0.0.1"),
     ports,
     stats);
@@ -605,19 +603,25 @@ void MainWindow::onDisconnect()
 
 void MainWindow::onToggleServerFromSystemTray(TQProfile profile)
 {
+    // use own helper to make sure data is up to date
+    ConfigHelper *helper = Utils::getConfigHelper();
+
     for (int i=0; i < ui->connectionView->model()->rowCount(); i++) {
         int row = proxyModel->mapToSource(ui->connectionView->model()->index(i, 0)).row();
         TQProfile p = model->getItem(row)->getConnection()->getProfile();
         if (p.equals(profile)) {
             ui->connectionView->selectRow(i);
             Connection *con = model->getItem(row)->getConnection();
-            if (!profile.equals(model->getConnectedServer()) && configHelper->isTrojanOn()) {
+            if (!profile.equals(model->getConnectedServer()) && helper->isTrojanOn()) {
                 model->disconnectConnections();
                 con->start();
                 connect(con, &Connection::dataTrafficAvailable, this, &MainWindow::onStatusAvailable);
             }
         }
     }
+    delete helper;
+    helper = nullptr;
+
     checkCurrentIndex();
 }
 

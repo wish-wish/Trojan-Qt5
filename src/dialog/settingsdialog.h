@@ -42,6 +42,7 @@ private:
 
 private slots:
     void onThemeChanged();
+    void onBypassBittorrentChanged();
     void onAccepted();
     void onChanged();
 };

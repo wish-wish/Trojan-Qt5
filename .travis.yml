@@ -81,6 +81,8 @@ before_script:
 script:
   - git submodule update --init --recursive
   - cd 3rd/trojan-qt5-core
+  - go env -w GOPROXY=direct
+  - go env -w GOSUMDB=off
   - go build --tags "api client router" -buildmode=c-archive
   - cd ../..
   - if [ "$BADGE" = "osx" ]; then

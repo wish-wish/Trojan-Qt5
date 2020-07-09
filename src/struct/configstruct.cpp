@@ -88,12 +88,12 @@ QDataStream& operator >> (QDataStream &in, RouterSettings &r)
 
 QDataStream& operator << (QDataStream &out, const CoreSettings &c)
 {
-    out << c.fingerprint << c.enableAPI << c.enableRouter << c.countInboundTraffic << c.countOutboundTraffic << c.geoPath << c.apiPort << c.trojanCertPath << c.trojanCipher << c.trojanCipherTLS13 << c.bufferSize;
+    out << c.fingerprint << c.enableAPI << c.enableRouter << c.countOutboundTraffic << c.geoPath << c.apiPort << c.trojanCertPath << c.trojanCipher << c.trojanCipherTLS13 << c.bufferSize;
     return out;
 }
 
 QDataStream& operator >> (QDataStream &in, CoreSettings &c)
 {
-    in >> c.fingerprint >> c.enableAPI >> c.enableRouter >> c.countInboundTraffic >> c.countOutboundTraffic >> c.geoPath >> c.apiPort >> c.trojanCertPath >> c.trojanCipher >> c.trojanCipherTLS13 >> c.bufferSize;
+    in >> c.fingerprint >> c.enableAPI >> c.enableRouter >> c.countOutboundTraffic >> c.geoPath >> c.apiPort >> c.trojanCertPath >> c.trojanCipher >> c.trojanCipherTLS13 >> c.bufferSize;
     return in;
 }

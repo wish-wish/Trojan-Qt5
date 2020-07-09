@@ -124,7 +124,6 @@ struct CoreSettings {
     int fingerprint = 2;
     bool enableAPI = true;
     bool enableRouter = false;
-    bool countInboundTraffic = true;
     bool countOutboundTraffic = false;
     QString geoPath;
     int apiPort = 57721;

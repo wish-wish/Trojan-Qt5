@@ -20,7 +20,7 @@ SettingsDialog::SettingsDialog(ConfigHelper *ch, QWidget *parent) :
     // general settings
     ui->toolbarStyleComboBox->setCurrentIndex(helper->getGeneralSettings().toolBarStyle);
     ui->logLevelComboBox->setCurrentIndex(helper->getGeneralSettings().logLevel);
-    //ui->haproxyModeComboBox->setCurrentIndex();
+    // ui->haproxyModeComboBox->setCurrentIndex();
     ui->themeComboBox->addItems(QStyleFactory::keys());
     ui->themeComboBox->setCurrentText(helper->getGeneralSettings().theme);
     ui->systemThemeCB->setCurrentIndex(helper->getGeneralSettings().systemTheme);
@@ -96,6 +96,7 @@ SettingsDialog::SettingsDialog(ConfigHelper *ch, QWidget *parent) :
     ui->routeSettingsLayout->addWidget(routeWidget);
 
     connect(ui->systemThemeCB, &QComboBox::currentTextChanged, this, &SettingsDialog::onThemeChanged);
+    connect(ui->bypassBittorrentCB, &QCheckBox::stateChanged, this, &SettingsDialog::onBypassBittorrentChanged);
     connect(ui->buttonBox, &QDialogButtonBox::accepted, this, &SettingsDialog::onAccepted);
     this->adjustSize();
 }
@@ -113,6 +114,12 @@ void SettingsDialog::onThemeChanged()
     }
     else
         ui->themeComboBox->setDisabled(false);
+}
+
+void SettingsDialog::onBypassBittorrentChanged()
+{
+    if (ui->bypassBittorrentCB->isChecked())
+        ui->inboundSniffingCB->setChecked(true);
 }
 
 void SettingsDialog::onAccepted()

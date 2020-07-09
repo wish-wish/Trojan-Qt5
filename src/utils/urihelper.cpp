@@ -47,6 +47,8 @@ QString URIHelper::decodeImage(const QImage &img)
                 uri = result;
             else if (result.left(9).compare("trojan://", Qt::CaseInsensitive) == 0)
                 uri = result;
+            else if (result.left(8).compare("snell://", Qt::CaseInsensitive) == 0)
+                uri = result;
         }
     }
 

@@ -56,5 +56,6 @@
         <file>icons/profile-share.svg</file>
         <file>icons/profile-up.svg</file>
         <file>icons/profile-down.svg</file>
+        <file>icons/hxlm.png</file>
     </qresource>
 </RCC>

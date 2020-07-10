@@ -16,3 +16,6 @@
 [submodule "3rd/trojan-qt5-core"]
 	path = 3rd/trojan-qt5-core
 	url = https://github.com/Trojan-Qt5/Trojan-Qt5-Core.git
+[submodule "src/qntp"]
+	path = src/qntp
+	url = https://github.com/retgone/qntp.git

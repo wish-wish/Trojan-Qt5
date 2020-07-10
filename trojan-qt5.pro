@@ -44,7 +44,7 @@ CONFIG += link_pkgconfig
 #DEFINES += QT_DEPRECATED_WARNINGS
 
 # Define App Version
-DEFINES += "APP_VERSION=\"\\\"1.3.2\\\"\""
+DEFINES += "APP_VERSION=\"\\\"1.4.0\\\"\""
 
 # Set Build Info String
 _TROJAN_QT5_BUILD_INFO_STR_=$$getenv(_TROJAN_QT5_BUILD_INFO_)
@@ -66,6 +66,9 @@ DEFINES += QT_QTCOLORPICKER_EXPORT
 
 # 3rdParty Headers
 INCLUDEPATH += $$PWD/src/plog/include
+
+# QNtp
+include($$PWD/src/qntp/qntp.pri)
 
 # ShadowsocksR-uvw
 include($$PWD/src/shadowsocksr-uvw/Shadowsocksr-uvw.pri)
@@ -197,6 +200,7 @@ SOURCES += \
     src/struct/configstruct.cpp \
     src/struct/trojangostruct.cpp \
     src/struct/v2raystruct.cpp \
+    src/utils/ntphelper.cpp \
     src/validator/generalvalidator.cpp \
     src/validator/ip4validator.cpp \
     src/validator/portvalidator.cpp \
@@ -265,6 +269,7 @@ HEADERS += \
     src/struct/configstruct.h \
     src/struct/trojangostruct.h \
     src/struct/v2raystruct.h \
+    src/utils/ntphelper.h \
     src/validator/ip4validator.h \
     src/validator/portvalidator.h \
     src/validator/generalvalidator.h \

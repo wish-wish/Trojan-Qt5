@@ -60,6 +60,11 @@
     </message>
     <message>
         <location filename="../../ui/aboutdialog.ui" line="310"/>
+        <source>Airport Recommandation 3</source>
+        <translation type="unfinished">サービスプロバイダーの推奨3</translation>
+    </message>
+    <message>
+        <location filename="../../ui/aboutdialog.ui" line="338"/>
         <source>Donation</source>
         <translation>寄付</translation>
     </message>
@@ -67,7 +72,7 @@
 <context>
     <name>ColorPickerPopup</name>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="897"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="897"/>
         <source>Custom</source>
         <translation>カスタム</translation>
     </message>
@@ -688,6 +693,27 @@ wikiや説明ドキュメントをご確認ください</translation>
     </message>
 </context>
 <context>
+    <name>NTPHelper</name>
+    <message>
+        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
+        <source>Your time offset is over 90s.
+V2Ray will not work in this situtation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <source>Inaccurate Time Detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <source>Your time offset is over 15s.
+Although V2Ray will work, we still suggest you adjust your system clock.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NaiveProxyEditDialog</name>
     <message>
         <location filename="../../ui/naiveproxyeditdialog.ui" line="14"/>
@@ -803,7 +829,7 @@ See the following link for a reference:
 <context>
     <name>QRCodeCapturer</name>
     <message>
-        <location filename="../../src/qrcodecapturer.cpp" line="24"/>
+        <location filename="../../src/qrcode/qrcodecapturer.cpp" line="24"/>
         <source>QR Capturer</source>
         <translation>QRキャプチャー</translation>
     </message>
@@ -811,7 +837,7 @@ See the following link for a reference:
 <context>
     <name>QRWidget</name>
     <message>
-        <location filename="../../src/qrwidget.cpp" line="37"/>
+        <location filename="../../src/qrcode/qrwidget.cpp" line="37"/>
         <source>Generating QR code failed.</source>
         <translation>QRコードの生成に失敗しました</translation>
     </message>
@@ -819,110 +845,110 @@ See the following link for a reference:
 <context>
     <name>QtColorPicker</name>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="279"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="405"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="508"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="279"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="405"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="508"/>
         <source>Black</source>
         <translation>Black</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="406"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="509"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="406"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="509"/>
         <source>White</source>
         <translation>White</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="407"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="510"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="407"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="510"/>
         <source>Red</source>
         <translation>Red</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="408"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="511"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="408"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="511"/>
         <source>Dark red</source>
         <translation>Dark red</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="409"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="512"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="409"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="512"/>
         <source>Green</source>
         <translation>Green</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="410"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="513"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="410"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="513"/>
         <source>Dark green</source>
         <translation>Dark green</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="411"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="514"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="411"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="514"/>
         <source>Blue</source>
         <translation>Blue</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="412"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="515"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="412"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="515"/>
         <source>Dark blue</source>
         <translation>Dark blue</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="413"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="516"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="413"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="516"/>
         <source>Cyan</source>
         <translation>Cyan</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="414"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="517"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="414"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="517"/>
         <source>Dark cyan</source>
         <translation>Dark cyan</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="415"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="518"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="415"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="518"/>
         <source>Magenta</source>
         <translation>Magenta</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="416"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="519"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="416"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="519"/>
         <source>Dark magenta</source>
         <translation>Dark magenta</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="417"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="520"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="417"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="520"/>
         <source>Yellow</source>
         <translation>Yellow</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="418"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="521"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="418"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="521"/>
         <source>Dark yellow</source>
         <translation>Dark yellow</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="419"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="522"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="419"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="522"/>
         <source>Gray</source>
         <translation>Gray</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="420"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="523"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="420"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="523"/>
         <source>Dark gray</source>
         <translation>Dark gray</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="421"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="524"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="421"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="524"/>
         <source>Light gray</source>
         <translation>Light gray</translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="439"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="439"/>
         <source>Custom</source>
         <translation>カスタム</translation>
     </message>
@@ -1550,9 +1576,13 @@ See the following link for a reference:
         <location filename="../../ui/settingsdialog.ui" line="587"/>
         <location filename="../../ui/settingsdialog.ui" line="601"/>
         <location filename="../../ui/settingsdialog.ui" line="615"/>
-        <location filename="../../ui/settingsdialog.ui" line="850"/>
-        <location filename="../../ui/settingsdialog.ui" line="935"/>
-        <location filename="../../ui/settingsdialog.ui" line="949"/>
+        <location filename="../../ui/settingsdialog.ui" line="629"/>
+        <location filename="../../ui/settingsdialog.ui" line="773"/>
+        <location filename="../../ui/settingsdialog.ui" line="780"/>
+        <location filename="../../ui/settingsdialog.ui" line="912"/>
+        <location filename="../../ui/settingsdialog.ui" line="997"/>
+        <location filename="../../ui/settingsdialog.ui" line="1011"/>
+        <location filename="../../ui/settingsdialog.ui" line="1025"/>
         <source>Enable</source>
         <translation>有効</translation>
     </message>
@@ -1758,215 +1788,257 @@ See the following link for a reference:
         <translation>中国IP&amp;ドメインを経由させない</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="625"/>
+        <location filename="../../ui/settingsdialog.ui" line="622"/>
+        <source>Bypass Private Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="639"/>
         <source>Test Settings</source>
         <translation>テスト設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="633"/>
+        <location filename="../../ui/settingsdialog.ui" line="647"/>
         <source>Latency Test Method</source>
         <translation>遅延テスト方式</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="641"/>
+        <location filename="../../ui/settingsdialog.ui" line="655"/>
         <source>TCP</source>
         <translation>TCP</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="646"/>
+        <location filename="../../ui/settingsdialog.ui" line="660"/>
         <source>CONNECT</source>
         <translation>CONNECT</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="654"/>
+        <location filename="../../ui/settingsdialog.ui" line="668"/>
         <source>Real Lantency Test Url</source>
         <translation>実際の通信遅延をテストする為のUrl</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="664"/>
+        <location filename="../../ui/settingsdialog.ui" line="678"/>
         <source>Speed Test Url</source>
         <translation>ダウンロード速度をテストする為のファイルUrl</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="677"/>
+        <location filename="../../ui/settingsdialog.ui" line="691"/>
         <source>Graph Settings</source>
         <translation>グラフ設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="685"/>
-        <source>Download Speed Color</source>
-        <translation>ダウンロード速度のカラー</translation>
+        <location filename="../../ui/settingsdialog.ui" line="699"/>
+        <source>Proxy Download Speed Color</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="698"/>
-        <location filename="../../ui/settingsdialog.ui" line="711"/>
+        <location filename="../../ui/settingsdialog.ui" line="719"/>
+        <source>Proxy Upload Speed Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="739"/>
+        <source>Direct Download Speed Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="749"/>
+        <source>Direct Upload Speed Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="759"/>
+        <source>Detail Outbound Proxy Traffic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="766"/>
+        <source>Detail Outbound Direct Traffic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="932"/>
+        <source>Core Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download Speed Color</source>
+        <translation type="vanished">ダウンロード速度のカラー</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="712"/>
+        <location filename="../../ui/settingsdialog.ui" line="732"/>
         <source>PushButton</source>
         <translation>PushButton</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="718"/>
         <source>Upload Speed Color</source>
-        <translation>アップロード速度のカラー</translation>
+        <translation type="vanished">アップロード速度のカラー</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="728"/>
+        <location filename="../../ui/settingsdialog.ui" line="790"/>
         <source>Subscribe Settings</source>
         <translation>サブスクライブ設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="739"/>
+        <location filename="../../ui/settingsdialog.ui" line="801"/>
         <source>GFWList Update Url</source>
         <translation>GFWListアップデートUrl</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="753"/>
+        <location filename="../../ui/settingsdialog.ui" line="815"/>
         <source>gfwlist/gfwlist</source>
         <translation>gfwlist/gfwlist</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="758"/>
+        <location filename="../../ui/settingsdialog.ui" line="820"/>
         <source>Loukky/gfwlist-by-loukky</source>
         <translation>Loukky/gfwlist-by-loukky</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="763"/>
+        <location filename="../../ui/settingsdialog.ui" line="825"/>
         <source>Local File</source>
         <translation>ローカルファイル</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="771"/>
+        <location filename="../../ui/settingsdialog.ui" line="833"/>
         <source>Update User Agent</source>
         <translation>アップデートを行う際に使うユーザエージェント</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="781"/>
+        <location filename="../../ui/settingsdialog.ui" line="843"/>
         <source>Filter Keyword (,)</source>
         <translation>Filter Keyword (,)</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="791"/>
+        <location filename="../../ui/settingsdialog.ui" line="853"/>
         <source>Maximum</source>
         <translation>最大サーバー取得数</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="801"/>
+        <location filename="../../ui/settingsdialog.ui" line="863"/>
         <source>Overwrite AllowInsecure</source>
         <translation>AllowInsecureを常に有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="808"/>
-        <location filename="../../ui/settingsdialog.ui" line="822"/>
-        <location filename="../../ui/settingsdialog.ui" line="836"/>
+        <location filename="../../ui/settingsdialog.ui" line="870"/>
+        <location filename="../../ui/settingsdialog.ui" line="884"/>
+        <location filename="../../ui/settingsdialog.ui" line="898"/>
         <source>Overwrite</source>
         <translation>上書き</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="815"/>
+        <location filename="../../ui/settingsdialog.ui" line="877"/>
         <source>Overwrite AllowInsecureCiphers</source>
         <translation>AllowInsecureCiphersを常に有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="829"/>
+        <location filename="../../ui/settingsdialog.ui" line="891"/>
         <source>Overwirte TcpFastOpen</source>
         <translation>TcpFastOpenを常に有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="843"/>
+        <location filename="../../ui/settingsdialog.ui" line="905"/>
         <source>Auto fetch group name</source>
         <translation>自動的にグループ名を取得</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="860"/>
+        <location filename="../../ui/settingsdialog.ui" line="922"/>
         <source>Router Settings</source>
         <translation>ルーター設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="870"/>
         <source>Trojan Settings</source>
-        <translation>Trojan設定</translation>
+        <translation type="vanished">Trojan設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="881"/>
+        <location filename="../../ui/settingsdialog.ui" line="943"/>
         <source>TLS Fingerprint</source>
         <translation>TLSフィンガープリント</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="895"/>
+        <location filename="../../ui/settingsdialog.ui" line="957"/>
         <source>none</source>
         <translation>none</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="900"/>
+        <location filename="../../ui/settingsdialog.ui" line="962"/>
         <source>auto</source>
         <translation>auto</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="905"/>
+        <location filename="../../ui/settingsdialog.ui" line="967"/>
         <source>firefox</source>
         <translation>firefox</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="910"/>
+        <location filename="../../ui/settingsdialog.ui" line="972"/>
         <source>chrome</source>
         <translation>chrome</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="915"/>
+        <location filename="../../ui/settingsdialog.ui" line="977"/>
         <source>ios</source>
         <translation>ios</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="920"/>
+        <location filename="../../ui/settingsdialog.ui" line="982"/>
         <source>randomized</source>
         <translation>randomized</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="928"/>
+        <location filename="../../ui/settingsdialog.ui" line="990"/>
         <source>Enable Router</source>
         <translation>ルーター機能を有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="942"/>
+        <location filename="../../ui/settingsdialog.ui" line="1004"/>
         <source>Enable API</source>
         <translation>APIを有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="956"/>
+        <location filename="../../ui/settingsdialog.ui" line="1018"/>
+        <source>Count Outbound Traffic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="1032"/>
         <source>Geo Path</source>
         <translation>Geoパース</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="966"/>
+        <location filename="../../ui/settingsdialog.ui" line="1042"/>
         <source>API Port</source>
         <translation>APIポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="976"/>
+        <location filename="../../ui/settingsdialog.ui" line="1052"/>
         <source>Cert</source>
         <translation>Certパース</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="986"/>
+        <location filename="../../ui/settingsdialog.ui" line="1062"/>
         <source>Cipher</source>
         <translation>暗号化方式</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="996"/>
+        <location filename="../../ui/settingsdialog.ui" line="1072"/>
         <source>Cipher TLS13</source>
         <translation>TLS1.3の暗号化方式</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1006"/>
+        <location filename="../../ui/settingsdialog.ui" line="1082"/>
         <source>Buffer Size</source>
         <translation>バッファサイズ</translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="117"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="130"/>
         <source>Invalid</source>
         <translation>無効な情報</translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="118"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="131"/>
         <source>You can not hide dock Icon and use native menu bar at the same time</source>
         <translation>ドックのアイコンを非表示にしたままの状態で、ネイティブメニューバーを利用することはできません</translation>
     </message>
@@ -2126,45 +2198,73 @@ See the following link for a reference:
 <context>
     <name>SpeedPlotView</name>
     <message>
-        <location filename="../../src/speedplot/speedplotview.cpp" line="183"/>
         <source>Total Upload</source>
-        <translation>アップロード総量</translation>
+        <translation type="vanished">アップロード総量</translation>
     </message>
     <message>
-        <location filename="../../src/speedplot/speedplotview.cpp" line="184"/>
         <source>Total Download</source>
-        <translation>ダウンロード総量</translation>
+        <translation type="vanished">ダウンロード総量</translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="190"/>
+        <source>Proxy ↑</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="192"/>
+        <source>Proxy ↓</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="195"/>
+        <source>Direct ↑</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="197"/>
+        <source>Direct ↓</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="201"/>
+        <source>Total ↑</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="203"/>
+        <source>Total ↓</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>StatusBar</name>
     <message>
-        <location filename="../../src/statusbar.cpp" line="35"/>
+        <location filename="../../src/extension/statusbar.cpp" line="35"/>
         <source>SOCKS5   %1: %2</source>
         <translation>SOCKS5   %1: %2</translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="38"/>
+        <location filename="../../src/extension/statusbar.cpp" line="38"/>
         <source>HTTP   %1: %2</source>
         <translation>HTTP   %1: %2</translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="41"/>
+        <location filename="../../src/extension/statusbar.cpp" line="41"/>
         <source>PAC   %1: %2</source>
         <translation>PAC   %1: %2</translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="105"/>
+        <location filename="../../src/extension/statusbar.cpp" line="105"/>
         <source>SOCKS5   %1:%2</source>
         <translation>SOCKS5   %1:%2</translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="106"/>
+        <location filename="../../src/extension/statusbar.cpp" line="106"/>
         <source>HTTP   %1:%2</source>
         <translation>HTTP   %1:%2</translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="107"/>
+        <location filename="../../src/extension/statusbar.cpp" line="107"/>
         <source>PAC   %1:%2</source>
         <translation>PAC   %1:%2</translation>
     </message>
@@ -2172,235 +2272,235 @@ See the following link for a reference:
 <context>
     <name>StatusNotifier</name>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="39"/>
-        <location filename="../../src/statusnotifier.cpp" line="421"/>
-        <location filename="../../src/statusnotifier.mm" line="34"/>
-        <location filename="../../src/statusnotifier.mm" line="394"/>
+        <location filename="../../src/statusnotifier.cpp" line="40"/>
+        <location filename="../../src/statusnotifier.cpp" line="439"/>
+        <location filename="../../src/statusnotifier.mm" line="35"/>
+        <location filename="../../src/statusnotifier.mm" line="412"/>
         <source>Restore</source>
         <translation>復元</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="39"/>
-        <location filename="../../src/statusnotifier.cpp" line="421"/>
-        <location filename="../../src/statusnotifier.mm" line="34"/>
-        <location filename="../../src/statusnotifier.mm" line="394"/>
+        <location filename="../../src/statusnotifier.cpp" line="40"/>
+        <location filename="../../src/statusnotifier.cpp" line="439"/>
+        <location filename="../../src/statusnotifier.mm" line="35"/>
+        <location filename="../../src/statusnotifier.mm" line="412"/>
         <source>Minimise</source>
         <translation>最小化</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="44"/>
-        <location filename="../../src/statusnotifier.mm" line="39"/>
+        <location filename="../../src/statusnotifier.cpp" line="45"/>
+        <location filename="../../src/statusnotifier.mm" line="40"/>
         <source>Quit</source>
         <translation>終了</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="52"/>
-        <location filename="../../src/statusnotifier.cpp" line="405"/>
-        <location filename="../../src/statusnotifier.mm" line="51"/>
-        <location filename="../../src/statusnotifier.mm" line="378"/>
+        <location filename="../../src/statusnotifier.cpp" line="53"/>
+        <location filename="../../src/statusnotifier.cpp" line="423"/>
+        <location filename="../../src/statusnotifier.mm" line="52"/>
+        <location filename="../../src/statusnotifier.mm" line="396"/>
         <source>Trojan: Off</source>
         <translation>Trojan: Off</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="54"/>
-        <location filename="../../src/statusnotifier.cpp" line="406"/>
-        <location filename="../../src/statusnotifier.mm" line="53"/>
-        <location filename="../../src/statusnotifier.mm" line="379"/>
+        <location filename="../../src/statusnotifier.cpp" line="55"/>
+        <location filename="../../src/statusnotifier.cpp" line="424"/>
+        <location filename="../../src/statusnotifier.mm" line="54"/>
+        <location filename="../../src/statusnotifier.mm" line="397"/>
         <source>Turn On Trojan</source>
         <translation>止める</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="58"/>
-        <location filename="../../src/statusnotifier.mm" line="57"/>
+        <location filename="../../src/statusnotifier.cpp" line="59"/>
+        <location filename="../../src/statusnotifier.mm" line="58"/>
         <source>Mode</source>
         <translation>プロキシモード</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="61"/>
-        <location filename="../../src/statusnotifier.mm" line="60"/>
+        <location filename="../../src/statusnotifier.cpp" line="62"/>
+        <location filename="../../src/statusnotifier.mm" line="61"/>
         <source>Disable system proxy</source>
         <translation>システムプロキシを無効にする</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="62"/>
-        <location filename="../../src/statusnotifier.cpp" line="83"/>
-        <location filename="../../src/statusnotifier.mm" line="61"/>
-        <location filename="../../src/statusnotifier.mm" line="82"/>
+        <location filename="../../src/statusnotifier.cpp" line="63"/>
+        <location filename="../../src/statusnotifier.cpp" line="84"/>
+        <location filename="../../src/statusnotifier.mm" line="62"/>
+        <location filename="../../src/statusnotifier.mm" line="83"/>
         <source>PAC</source>
         <translation>PAC</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="63"/>
-        <location filename="../../src/statusnotifier.mm" line="62"/>
+        <location filename="../../src/statusnotifier.cpp" line="64"/>
+        <location filename="../../src/statusnotifier.mm" line="63"/>
         <source>Global</source>
         <translation>グローバルプロキシ</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="64"/>
-        <location filename="../../src/statusnotifier.mm" line="63"/>
+        <location filename="../../src/statusnotifier.cpp" line="65"/>
+        <location filename="../../src/statusnotifier.mm" line="64"/>
         <source>Advance</source>
         <translation>アドバンスモード</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="84"/>
-        <location filename="../../src/statusnotifier.mm" line="83"/>
+        <location filename="../../src/statusnotifier.cpp" line="85"/>
+        <location filename="../../src/statusnotifier.mm" line="84"/>
         <source>Update local PAC from Lan IP list</source>
         <translation>ローカルPACをLan IPバイアスにアップデート</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="85"/>
-        <location filename="../../src/statusnotifier.mm" line="84"/>
+        <location filename="../../src/statusnotifier.cpp" line="86"/>
+        <location filename="../../src/statusnotifier.mm" line="85"/>
         <source>Update local PAC from Chn White list</source>
         <translation>ローカルPACを中国ドメインホワイトリストにアップデート</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="86"/>
-        <location filename="../../src/statusnotifier.mm" line="85"/>
+        <location filename="../../src/statusnotifier.cpp" line="87"/>
+        <location filename="../../src/statusnotifier.mm" line="86"/>
         <source>Update local from Chn Advance White list</source>
         <translation>ローカルPACを中国ドメインアドバンスホワイトリストにアップデート</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="87"/>
-        <location filename="../../src/statusnotifier.mm" line="86"/>
+        <location filename="../../src/statusnotifier.cpp" line="88"/>
+        <location filename="../../src/statusnotifier.mm" line="87"/>
         <source>Update local PAC from Chn IP list</source>
         <translation>ローカルPACを中国IPバイアスにアップデート</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="88"/>
-        <location filename="../../src/statusnotifier.mm" line="87"/>
+        <location filename="../../src/statusnotifier.cpp" line="89"/>
+        <location filename="../../src/statusnotifier.mm" line="88"/>
         <source>Update local PAC from GFWList</source>
         <translation>ローカルPACをGFWListにアップデート</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="89"/>
-        <location filename="../../src/statusnotifier.mm" line="88"/>
+        <location filename="../../src/statusnotifier.cpp" line="90"/>
+        <location filename="../../src/statusnotifier.mm" line="89"/>
         <source>Update local PAC from Chn Only list</source>
         <translation>ローカルPACをChn Onlyにアップデート（プロキシサーバーに中国のドメインしか経由させない）</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="90"/>
-        <location filename="../../src/statusnotifier.mm" line="89"/>
+        <location filename="../../src/statusnotifier.cpp" line="91"/>
+        <location filename="../../src/statusnotifier.mm" line="90"/>
         <source>Copy PAC URL</source>
         <translation>PACのURLをコピー</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="91"/>
-        <location filename="../../src/statusnotifier.mm" line="90"/>
+        <location filename="../../src/statusnotifier.cpp" line="92"/>
+        <location filename="../../src/statusnotifier.mm" line="91"/>
         <source>Edit local PAC file</source>
         <translation>ローカルPACファイルを編集</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="92"/>
-        <location filename="../../src/statusnotifier.mm" line="91"/>
+        <location filename="../../src/statusnotifier.cpp" line="93"/>
+        <location filename="../../src/statusnotifier.mm" line="92"/>
         <source>Edit user rule for GFWList</source>
         <translation>GFWListのユーザールールを編集</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="107"/>
-        <location filename="../../src/statusnotifier.mm" line="106"/>
+        <location filename="../../src/statusnotifier.cpp" line="108"/>
+        <location filename="../../src/statusnotifier.mm" line="107"/>
         <source>Servers</source>
         <translation>サーバー</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="110"/>
-        <location filename="../../src/statusnotifier.mm" line="109"/>
+        <location filename="../../src/statusnotifier.cpp" line="111"/>
+        <location filename="../../src/statusnotifier.mm" line="110"/>
         <source>Add Server</source>
         <translation>サーバーを追加</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="111"/>
-        <location filename="../../src/statusnotifier.mm" line="110"/>
+        <location filename="../../src/statusnotifier.cpp" line="112"/>
+        <location filename="../../src/statusnotifier.mm" line="111"/>
         <source>Add Manually</source>
         <translation>手動で追加</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="112"/>
-        <location filename="../../src/statusnotifier.mm" line="111"/>
+        <location filename="../../src/statusnotifier.cpp" line="113"/>
+        <location filename="../../src/statusnotifier.mm" line="112"/>
         <source>Scan QRCode on Screen</source>
         <translation>画面上のQRコードを読み取る</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="113"/>
-        <location filename="../../src/statusnotifier.mm" line="112"/>
+        <location filename="../../src/statusnotifier.cpp" line="114"/>
+        <location filename="../../src/statusnotifier.mm" line="113"/>
         <source>Add From Pasteboard Uri</source>
         <translation>クリップボードにあるUriから接続を追加</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="119"/>
-        <location filename="../../src/statusnotifier.mm" line="118"/>
+        <location filename="../../src/statusnotifier.cpp" line="120"/>
+        <location filename="../../src/statusnotifier.mm" line="119"/>
         <source>Servers Subscribe</source>
         <translation>サーバーサブスクライブ</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="120"/>
-        <location filename="../../src/statusnotifier.mm" line="119"/>
+        <location filename="../../src/statusnotifier.cpp" line="121"/>
+        <location filename="../../src/statusnotifier.mm" line="120"/>
         <source>Subscribe setting</source>
         <translation>サブスクライブ設定</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="121"/>
-        <location filename="../../src/statusnotifier.mm" line="120"/>
+        <location filename="../../src/statusnotifier.cpp" line="122"/>
+        <location filename="../../src/statusnotifier.mm" line="121"/>
         <source>Update subscribe node</source>
         <translation>サブスクライブをアップデート</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="122"/>
-        <location filename="../../src/statusnotifier.mm" line="121"/>
+        <location filename="../../src/statusnotifier.cpp" line="123"/>
+        <location filename="../../src/statusnotifier.mm" line="122"/>
         <source>Update subscribe node(bypass proxy)</source>
         <translation>サブスクライブをアップデート（プロキシを使用せず）</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="127"/>
-        <location filename="../../src/statusnotifier.mm" line="126"/>
+        <location filename="../../src/statusnotifier.cpp" line="128"/>
+        <location filename="../../src/statusnotifier.mm" line="127"/>
         <source>Server Load Balance</source>
         <translation>サーバーロードバランス</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="130"/>
-        <location filename="../../src/statusnotifier.mm" line="129"/>
+        <location filename="../../src/statusnotifier.cpp" line="131"/>
+        <location filename="../../src/statusnotifier.mm" line="130"/>
         <source>Server Speed Plot</source>
         <translation>サーバーのスピードプロット</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="131"/>
-        <location filename="../../src/statusnotifier.mm" line="130"/>
+        <location filename="../../src/statusnotifier.cpp" line="132"/>
+        <location filename="../../src/statusnotifier.mm" line="131"/>
         <source>Copy terminal proxy command</source>
         <translation>ターミナル用のプロキシを設定するコマンド</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="132"/>
-        <location filename="../../src/statusnotifier.mm" line="131"/>
+        <location filename="../../src/statusnotifier.cpp" line="133"/>
+        <location filename="../../src/statusnotifier.mm" line="132"/>
         <source>Set Proxy to Telegram</source>
         <translation>Telegramにプロキシをセット</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="134"/>
+        <location filename="../../src/statusnotifier.cpp" line="135"/>
         <source>Install TAP Driver</source>
         <translation>TAPドライバーをインストール</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="277"/>
-        <location filename="../../src/statusnotifier.cpp" line="362"/>
-        <location filename="../../src/statusnotifier.mm" line="267"/>
-        <location filename="../../src/statusnotifier.mm" line="335"/>
+        <location filename="../../src/statusnotifier.cpp" line="295"/>
+        <location filename="../../src/statusnotifier.cpp" line="380"/>
+        <location filename="../../src/statusnotifier.mm" line="285"/>
+        <location filename="../../src/statusnotifier.mm" line="353"/>
         <source>Turn Off Trojan</source>
         <translation>止める</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="361"/>
-        <location filename="../../src/statusnotifier.mm" line="334"/>
+        <location filename="../../src/statusnotifier.cpp" line="379"/>
+        <location filename="../../src/statusnotifier.mm" line="352"/>
         <source>Trojan: On</source>
         <translation>Trojan: On</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="137"/>
-        <location filename="../../src/statusnotifier.mm" line="133"/>
+        <location filename="../../src/statusnotifier.cpp" line="138"/>
+        <location filename="../../src/statusnotifier.mm" line="134"/>
         <source>Copy as Windows Style</source>
         <translation>Windowsスタイルのコマンドをコピー</translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="138"/>
-        <location filename="../../src/statusnotifier.mm" line="134"/>
+        <location filename="../../src/statusnotifier.cpp" line="139"/>
+        <location filename="../../src/statusnotifier.mm" line="135"/>
         <source>Copy as Unix Style</source>
         <translation>Unixスタイルのコマンドをコピー</translation>
     </message>
@@ -2545,6 +2645,26 @@ See the following link for a reference:
         <source>Alpn</source>
         <translation>Alpn</translation>
     </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="632"/>
+        <source>Mux Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="638"/>
+        <source>Mux</source>
+        <translation type="unfinished">Mux</translation>
+    </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="645"/>
+        <source>Mux Concurrency</source>
+        <translation type="unfinished">Mux並行数</translation>
+    </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="652"/>
+        <source>Enable</source>
+        <translation type="unfinished">有効</translation>
+    </message>
 </context>
 <context>
     <name>SubscribeDialog</name>
@@ -2559,12 +2679,12 @@ See the following link for a reference:
         <translation>Url</translation>
     </message>
     <message>
-        <location filename="../../ui/subscribedialog.ui" line="29"/>
+        <location filename="../../ui/subscribedialog.ui" line="32"/>
         <source>Group Name</source>
         <translation>グループ名</translation>
     </message>
     <message>
-        <location filename="../../ui/subscribedialog.ui" line="36"/>
+        <location filename="../../ui/subscribedialog.ui" line="42"/>
         <source>Recent Update</source>
         <translation>最終更新日時</translation>
     </message>
@@ -2597,126 +2717,250 @@ See the following link for a reference:
 <context>
     <name>TrojanEditDialog</name>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="14"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="26"/>
         <source>Profile Editor</source>
         <translation>プロファイル編集</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="41"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="35"/>
+        <source>Trojan Settings</source>
+        <translation type="unfinished">Trojan設定</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojaneditdialog.ui" line="45"/>
         <source>Profile Name</source>
         <translation>プロファイル名</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="51"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="55"/>
         <source>Server Address</source>
         <translation>サーバーアドレス</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="61"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="65"/>
         <source>Server Port</source>
         <translation>サーバーポート</translation>
     </message>
     <message>
         <location filename="../../ui/trojaneditdialog.ui" line="75"/>
+        <source>Reset Data Usage After</source>
+        <translation type="unfinished">トラフィック用量のリセット日</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojaneditdialog.ui" line="119"/>
         <source>Verify Certificate</source>
         <translation>証明書を検証</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="82"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="123"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="137"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="151"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="165"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="179"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="213"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="227"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="126"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="147"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="154"/>
         <source>Enable</source>
         <translation>有効</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="89"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="168"/>
+        <source>Trojan-Go Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojaneditdialog.ui" line="99"/>
         <source>Password</source>
         <translation>パスワード</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="106"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="109"/>
         <source>SNI</source>
         <translation>SNI</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="116"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="133"/>
         <source>Reuse Session</source>
         <translation>セッションの再利用</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="130"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="140"/>
         <source>Session Ticket</source>
         <translation>Session Ticket</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="144"/>
         <source>Reuse Port</source>
-        <translation>ポートの再利用</translation>
+        <translation type="vanished">ポートの再利用</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="158"/>
         <source>TCP Fast Open</source>
-        <translation>TCP Fast Open</translation>
+        <translation type="vanished">TCP Fast Open</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="172"/>
         <source>Mux</source>
-        <translation>Mux</translation>
+        <translation type="vanished">Mux</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="206"/>
         <source>Websocket</source>
-        <translation>Websocket</translation>
+        <translation type="vanished">Websocket</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="234"/>
         <source>Websocket Path</source>
-        <translation>Websocketパース</translation>
+        <translation type="vanished">Websocketパース</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="244"/>
         <source>Websocket Hostname</source>
-        <translation>Websocketホスト名</translation>
+        <translation type="vanished">Websocketホスト名</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="254"/>
         <source>Websocket Obfs Password</source>
-        <translation>Websocket難読化パスワード</translation>
+        <translation type="vanished">Websocket難読化パスワード</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="264"/>
         <source>Reset Data Usage after</source>
-        <translation>トラフィック用量のリセット日</translation>
+        <translation type="vanished">トラフィック用量のリセット日</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="284"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="85"/>
         <source>Automation</source>
         <translation>自動化</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="297"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="92"/>
         <source>Auto connect on application start</source>
         <translation>アプリケーション起動時に接続</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="220"/>
         <source>Websocket Double TLS</source>
-        <translation>Websocket Double TLS</translation>
+        <translation type="vanished">Websocket Double TLS</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="186"/>
         <source>Mux Concurrency</source>
-        <translation>Mux並行数</translation>
+        <translation type="vanished">Mux並行数</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="196"/>
         <source>Mux Idle Timeout</source>
-        <translation>Mux Idle Timeout</translation>
+        <translation type="vanished">Mux Idle Timeout</translation>
+    </message>
+</context>
+<context>
+    <name>TrojanGoWidget</name>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="14"/>
+        <source>Stream Settings Widget</source>
+        <translation type="unfinished">Stream Settings Widget</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="24"/>
+        <location filename="../../ui/trojangowidget.ui" line="30"/>
+        <source>Mux</source>
+        <translation type="unfinished">Mux</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="37"/>
+        <location filename="../../ui/trojangowidget.ui" line="95"/>
+        <location filename="../../ui/trojangowidget.ui" line="133"/>
+        <location filename="../../ui/trojangowidget.ui" line="190"/>
+        <source>Enable</source>
+        <translation type="unfinished">有効</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="44"/>
+        <source>Mux Concurrency</source>
+        <translation type="unfinished">Mux並行数</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="51"/>
+        <source>Mux Idle Timeout</source>
+        <translation type="unfinished">Mux Idle Timeout</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="65"/>
+        <location filename="../../ui/trojangowidget.ui" line="71"/>
+        <source>Websocket</source>
+        <translation type="unfinished">Websocket</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="78"/>
+        <source>Path</source>
+        <translation type="unfinished">パース</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="85"/>
+        <source>Hostname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="106"/>
+        <location filename="../../ui/trojangowidget.ui" line="112"/>
+        <source>Shadowsocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="119"/>
+        <source>Method</source>
+        <translation type="unfinished">暗号化方式</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="126"/>
+        <source>Password</source>
+        <translation type="unfinished">パスワード</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="141"/>
+        <source>aes-128-gcm</source>
+        <translation type="unfinished">aes-128-gcm</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="146"/>
+        <source>aes-256-gcm</source>
+        <translation type="unfinished">aes-256-gcm</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="151"/>
+        <source>chacha20-ietf-poly1305</source>
+        <translation type="unfinished">chacha20-ietf-poly1305</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="163"/>
+        <location filename="../../ui/trojangowidget.ui" line="183"/>
+        <source>Transport Plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="169"/>
+        <source>Type</source>
+        <translation type="unfinished">タイプ</translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="176"/>
+        <source>Command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="198"/>
+        <source>shadowsocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="203"/>
+        <source>plaintext</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="208"/>
+        <source>other</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="219"/>
+        <source>Arg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="226"/>
+        <source>Env</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="233"/>
+        <source>Option</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2789,7 +3033,7 @@ See the following link for a reference:
     </message>
     <message>
         <location filename="../../ui/vmesseditdialog.ui" line="98"/>
-        <location filename="../../ui/vmesseditdialog.ui" line="196"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="134"/>
         <source>none</source>
         <translation>none</translation>
     </message>
@@ -2804,53 +3048,50 @@ See the following link for a reference:
         <translation>Alter ID</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="126"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="147"/>
         <source>Tcp Fast Open</source>
         <translation>Tcp Fast Open</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="133"/>
-        <location filename="../../ui/vmesseditdialog.ui" line="171"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="154"/>
         <source>Enable</source>
         <translation>有効</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="140"/>
         <source>Mux</source>
-        <translation>Mux</translation>
+        <translation type="vanished">Mux</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="147"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="161"/>
         <source>Reset Data Usage After</source>
         <translation>トラフィック用量のリセット日</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="157"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="171"/>
         <source>Automation</source>
         <translation>自動化</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="164"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="178"/>
         <source>Auto connect on application start</source>
         <translation>アプリケーション起動時に接続</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="178"/>
         <source>Mux concurrency</source>
-        <translation>Mux並行数</translation>
+        <translation type="vanished">Mux並行数</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="188"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="126"/>
         <source>Tests Enabled</source>
         <translation>有効なテストオプション</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="201"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="139"/>
         <source>VMessAEAD</source>
         <translation>VMessAEAD</translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="216"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="192"/>
         <source>Stream Settings</source>
         <translation>ストリーム設定</translation>
     </message>

@@ -14,8 +14,9 @@
 #include "midman.h"
 #include "eventfilter.h"
 #include "themehelper.h"
+#include "ntphelper.h"
 
-#include "LetsMove/PFMoveApplication.h"
+#include "letsmove/PFMoveApplication.h"
 
 #if defined (Q_OS_WIN)
 #include "urlschemeregister.h"
@@ -188,6 +189,10 @@ int main(int argc, char *argv[])
     mainWindow = &w;
 
     a.installEventFilter(new EventFilter(&w));
+
+    // check time accuracy
+    NTPHelper *ntp = new NTPHelper();
+    ntp->checkTime();
 
     if (conf.getGeneralSettings().onlyOneInstace && w.isInstanceRunning()) {
         return -1;

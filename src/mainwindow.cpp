@@ -888,8 +888,8 @@ void MainWindow::onStatusAvailable(QList<quint64> data)
     ports.append(configHelper->getInboundSettings().httpLocalPort);
     ports.append(configHelper->getInboundSettings().pacLocalPort);
     QList<QString> stats;
-    stats.append(Utils::bytesConvertor(data[0]));
-    stats.append(Utils::bytesConvertor(data[1]));
+    stats.append(Utils::bytesConvertor(data[1])); // download
+    stats.append(Utils::bytesConvertor(data[0])); // upload
     stats.append(Utils::bytesConvertor(MidMan::getConnection().getProfile().totalDownloadUsage));
     stats.append(Utils::bytesConvertor(MidMan::getConnection().getProfile().totalUploadUsage));
     m_statusBar->refresh(configHelper->getInboundSettings().enableIpv6Support ? (configHelper->getInboundSettings().shareOverLan ? "::" : "::1") : (configHelper->getInboundSettings().shareOverLan ? "0.0.0.0" : "127.0.0.1"),

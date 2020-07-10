@@ -26,6 +26,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     if (!conf->getGeneralSettings().showAirportAndDonation) {
         // remove them inversely to delete completely
+        ui->tabWidget->removeTab(4);
         ui->tabWidget->removeTab(3);
         ui->tabWidget->removeTab(2);
         ui->tabWidget->removeTab(1);
@@ -34,6 +35,7 @@ AboutDialog::AboutDialog(QWidget *parent) :
         ui->westWorldSSLabel->setUrl("https://xbsj5673.xyz");
         ui->qingWanLabel->setUrl("https://www.qwyun.vip/auth/register?code=COELWU");
         ui->youyun666Label->setUrl("https://youyun666.com/auth/register?code=FDqS");
+        ui->marsAllianceLabel->setUrl("https://www.hxlm.org/#/register?code=a7cWmBDX");
     }
 }
 

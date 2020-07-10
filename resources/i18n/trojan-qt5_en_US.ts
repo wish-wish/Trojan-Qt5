@@ -60,6 +60,11 @@
     </message>
     <message>
         <location filename="../../ui/aboutdialog.ui" line="310"/>
+        <source>Airport Recommandation 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/aboutdialog.ui" line="338"/>
         <source>Donation</source>
         <translation type="unfinished"></translation>
     </message>
@@ -67,7 +72,7 @@
 <context>
     <name>ColorPickerPopup</name>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="897"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="897"/>
         <source>Custom</source>
         <translation type="unfinished"></translation>
     </message>
@@ -686,6 +691,27 @@ Checkout wiki for instructions</source>
     </message>
 </context>
 <context>
+    <name>NTPHelper</name>
+    <message>
+        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
+        <source>Your time offset is over 90s.
+V2Ray will not work in this situtation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <source>Inaccurate Time Detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <source>Your time offset is over 15s.
+Although V2Ray will work, we still suggest you adjust your system clock.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NaiveProxyEditDialog</name>
     <message>
         <location filename="../../ui/naiveproxyeditdialog.ui" line="14"/>
@@ -799,7 +825,7 @@ See the following link for a reference:
 <context>
     <name>QRCodeCapturer</name>
     <message>
-        <location filename="../../src/qrcodecapturer.cpp" line="24"/>
+        <location filename="../../src/qrcode/qrcodecapturer.cpp" line="24"/>
         <source>QR Capturer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -807,7 +833,7 @@ See the following link for a reference:
 <context>
     <name>QRWidget</name>
     <message>
-        <location filename="../../src/qrwidget.cpp" line="37"/>
+        <location filename="../../src/qrcode/qrwidget.cpp" line="37"/>
         <source>Generating QR code failed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -815,110 +841,110 @@ See the following link for a reference:
 <context>
     <name>QtColorPicker</name>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="279"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="405"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="508"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="279"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="405"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="508"/>
         <source>Black</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="406"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="509"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="406"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="509"/>
         <source>White</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="407"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="510"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="407"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="510"/>
         <source>Red</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="408"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="511"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="408"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="511"/>
         <source>Dark red</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="409"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="512"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="409"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="512"/>
         <source>Green</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="410"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="513"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="410"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="513"/>
         <source>Dark green</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="411"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="514"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="411"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="514"/>
         <source>Blue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="412"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="515"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="412"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="515"/>
         <source>Dark blue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="413"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="516"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="413"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="516"/>
         <source>Cyan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="414"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="517"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="414"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="517"/>
         <source>Dark cyan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="415"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="518"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="415"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="518"/>
         <source>Magenta</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="416"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="519"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="416"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="519"/>
         <source>Dark magenta</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="417"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="520"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="417"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="520"/>
         <source>Yellow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="418"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="521"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="418"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="521"/>
         <source>Dark yellow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="419"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="522"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="419"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="522"/>
         <source>Gray</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="420"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="523"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="420"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="523"/>
         <source>Dark gray</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="421"/>
-        <location filename="../../src/qtcolorpicker.cpp" line="524"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="421"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="524"/>
         <source>Light gray</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/qtcolorpicker.cpp" line="439"/>
+        <location filename="../../src/extension/qtcolorpicker.cpp" line="439"/>
         <source>Custom</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1546,9 +1572,13 @@ See the following link for a reference:
         <location filename="../../ui/settingsdialog.ui" line="587"/>
         <location filename="../../ui/settingsdialog.ui" line="601"/>
         <location filename="../../ui/settingsdialog.ui" line="615"/>
-        <location filename="../../ui/settingsdialog.ui" line="850"/>
-        <location filename="../../ui/settingsdialog.ui" line="935"/>
-        <location filename="../../ui/settingsdialog.ui" line="949"/>
+        <location filename="../../ui/settingsdialog.ui" line="629"/>
+        <location filename="../../ui/settingsdialog.ui" line="773"/>
+        <location filename="../../ui/settingsdialog.ui" line="780"/>
+        <location filename="../../ui/settingsdialog.ui" line="912"/>
+        <location filename="../../ui/settingsdialog.ui" line="997"/>
+        <location filename="../../ui/settingsdialog.ui" line="1011"/>
+        <location filename="../../ui/settingsdialog.ui" line="1025"/>
         <source>Enable</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1754,215 +1784,245 @@ See the following link for a reference:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="625"/>
+        <location filename="../../ui/settingsdialog.ui" line="622"/>
+        <source>Bypass Private Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="639"/>
         <source>Test Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="633"/>
+        <location filename="../../ui/settingsdialog.ui" line="647"/>
         <source>Latency Test Method</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="641"/>
+        <location filename="../../ui/settingsdialog.ui" line="655"/>
         <source>TCP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="646"/>
+        <location filename="../../ui/settingsdialog.ui" line="660"/>
         <source>CONNECT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="654"/>
+        <location filename="../../ui/settingsdialog.ui" line="668"/>
         <source>Real Lantency Test Url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="664"/>
+        <location filename="../../ui/settingsdialog.ui" line="678"/>
         <source>Speed Test Url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="677"/>
+        <location filename="../../ui/settingsdialog.ui" line="691"/>
         <source>Graph Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="685"/>
-        <source>Download Speed Color</source>
+        <location filename="../../ui/settingsdialog.ui" line="699"/>
+        <source>Proxy Download Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="698"/>
-        <location filename="../../ui/settingsdialog.ui" line="711"/>
-        <source>PushButton</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/settingsdialog.ui" line="718"/>
-        <source>Upload Speed Color</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/settingsdialog.ui" line="728"/>
-        <source>Subscribe Settings</source>
+        <location filename="../../ui/settingsdialog.ui" line="719"/>
+        <source>Proxy Upload Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="739"/>
-        <source>GFWList Update Url</source>
+        <source>Direct Download Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="753"/>
-        <source>gfwlist/gfwlist</source>
+        <location filename="../../ui/settingsdialog.ui" line="749"/>
+        <source>Direct Upload Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="758"/>
-        <source>Loukky/gfwlist-by-loukky</source>
+        <location filename="../../ui/settingsdialog.ui" line="759"/>
+        <source>Detail Outbound Proxy Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="763"/>
-        <source>Local File</source>
+        <location filename="../../ui/settingsdialog.ui" line="766"/>
+        <source>Detail Outbound Direct Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="771"/>
-        <source>Update User Agent</source>
+        <location filename="../../ui/settingsdialog.ui" line="932"/>
+        <source>Core Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="781"/>
-        <source>Filter Keyword (,)</source>
+        <location filename="../../ui/settingsdialog.ui" line="712"/>
+        <location filename="../../ui/settingsdialog.ui" line="732"/>
+        <source>PushButton</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="791"/>
-        <source>Maximum</source>
+        <location filename="../../ui/settingsdialog.ui" line="790"/>
+        <source>Subscribe Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="801"/>
-        <source>Overwrite AllowInsecure</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/settingsdialog.ui" line="808"/>
-        <location filename="../../ui/settingsdialog.ui" line="822"/>
-        <location filename="../../ui/settingsdialog.ui" line="836"/>
-        <source>Overwrite</source>
+        <source>GFWList Update Url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="815"/>
-        <source>Overwrite AllowInsecureCiphers</source>
+        <source>gfwlist/gfwlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="829"/>
-        <source>Overwirte TcpFastOpen</source>
+        <location filename="../../ui/settingsdialog.ui" line="820"/>
+        <source>Loukky/gfwlist-by-loukky</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="825"/>
+        <source>Local File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="833"/>
+        <source>Update User Agent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="843"/>
-        <source>Auto fetch group name</source>
+        <source>Filter Keyword (,)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="860"/>
-        <source>Router Settings</source>
+        <location filename="../../ui/settingsdialog.ui" line="853"/>
+        <source>Maximum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="863"/>
+        <source>Overwrite AllowInsecure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="870"/>
-        <source>Trojan Settings</source>
+        <location filename="../../ui/settingsdialog.ui" line="884"/>
+        <location filename="../../ui/settingsdialog.ui" line="898"/>
+        <source>Overwrite</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="881"/>
-        <source>TLS Fingerprint</source>
+        <location filename="../../ui/settingsdialog.ui" line="877"/>
+        <source>Overwrite AllowInsecureCiphers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="895"/>
-        <source>none</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/settingsdialog.ui" line="900"/>
-        <source>auto</source>
+        <location filename="../../ui/settingsdialog.ui" line="891"/>
+        <source>Overwirte TcpFastOpen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="905"/>
+        <source>Auto fetch group name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="922"/>
+        <source>Router Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="943"/>
+        <source>TLS Fingerprint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="957"/>
+        <source>none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="962"/>
+        <source>auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="967"/>
         <source>firefox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="910"/>
+        <location filename="../../ui/settingsdialog.ui" line="972"/>
         <source>chrome</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="915"/>
+        <location filename="../../ui/settingsdialog.ui" line="977"/>
         <source>ios</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="920"/>
+        <location filename="../../ui/settingsdialog.ui" line="982"/>
         <source>randomized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="928"/>
+        <location filename="../../ui/settingsdialog.ui" line="990"/>
         <source>Enable Router</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="942"/>
+        <location filename="../../ui/settingsdialog.ui" line="1004"/>
         <source>Enable API</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="956"/>
+        <location filename="../../ui/settingsdialog.ui" line="1018"/>
+        <source>Count Outbound Traffic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="1032"/>
         <source>Geo Path</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="966"/>
+        <location filename="../../ui/settingsdialog.ui" line="1042"/>
         <source>API Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="976"/>
+        <location filename="../../ui/settingsdialog.ui" line="1052"/>
         <source>Cert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="986"/>
+        <location filename="../../ui/settingsdialog.ui" line="1062"/>
         <source>Cipher</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="996"/>
+        <location filename="../../ui/settingsdialog.ui" line="1072"/>
         <source>Cipher TLS13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1006"/>
+        <location filename="../../ui/settingsdialog.ui" line="1082"/>
         <source>Buffer Size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="117"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="130"/>
         <source>Invalid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="118"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="131"/>
         <source>You can not hide dock Icon and use native menu bar at the same time</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2122,45 +2182,65 @@ See the following link for a reference:
 <context>
     <name>SpeedPlotView</name>
     <message>
-        <location filename="../../src/speedplot/speedplotview.cpp" line="183"/>
-        <source>Total Upload</source>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="190"/>
+        <source>Proxy ↑</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/speedplot/speedplotview.cpp" line="184"/>
-        <source>Total Download</source>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="192"/>
+        <source>Proxy ↓</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="195"/>
+        <source>Direct ↑</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="197"/>
+        <source>Direct ↓</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="201"/>
+        <source>Total ↑</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/speedplot/speedplotview.cpp" line="203"/>
+        <source>Total ↓</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>StatusBar</name>
     <message>
-        <location filename="../../src/statusbar.cpp" line="35"/>
+        <location filename="../../src/extension/statusbar.cpp" line="35"/>
         <source>SOCKS5   %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="38"/>
+        <location filename="../../src/extension/statusbar.cpp" line="38"/>
         <source>HTTP   %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="41"/>
+        <location filename="../../src/extension/statusbar.cpp" line="41"/>
         <source>PAC   %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="105"/>
+        <location filename="../../src/extension/statusbar.cpp" line="105"/>
         <source>SOCKS5   %1:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="106"/>
+        <location filename="../../src/extension/statusbar.cpp" line="106"/>
         <source>HTTP   %1:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusbar.cpp" line="107"/>
+        <location filename="../../src/extension/statusbar.cpp" line="107"/>
         <source>PAC   %1:%2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2168,235 +2248,235 @@ See the following link for a reference:
 <context>
     <name>StatusNotifier</name>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="39"/>
-        <location filename="../../src/statusnotifier.cpp" line="421"/>
-        <location filename="../../src/statusnotifier.mm" line="34"/>
-        <location filename="../../src/statusnotifier.mm" line="394"/>
+        <location filename="../../src/statusnotifier.cpp" line="40"/>
+        <location filename="../../src/statusnotifier.cpp" line="439"/>
+        <location filename="../../src/statusnotifier.mm" line="35"/>
+        <location filename="../../src/statusnotifier.mm" line="412"/>
         <source>Restore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="39"/>
-        <location filename="../../src/statusnotifier.cpp" line="421"/>
-        <location filename="../../src/statusnotifier.mm" line="34"/>
-        <location filename="../../src/statusnotifier.mm" line="394"/>
+        <location filename="../../src/statusnotifier.cpp" line="40"/>
+        <location filename="../../src/statusnotifier.cpp" line="439"/>
+        <location filename="../../src/statusnotifier.mm" line="35"/>
+        <location filename="../../src/statusnotifier.mm" line="412"/>
         <source>Minimise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="44"/>
-        <location filename="../../src/statusnotifier.mm" line="39"/>
+        <location filename="../../src/statusnotifier.cpp" line="45"/>
+        <location filename="../../src/statusnotifier.mm" line="40"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="52"/>
-        <location filename="../../src/statusnotifier.cpp" line="405"/>
-        <location filename="../../src/statusnotifier.mm" line="51"/>
-        <location filename="../../src/statusnotifier.mm" line="378"/>
+        <location filename="../../src/statusnotifier.cpp" line="53"/>
+        <location filename="../../src/statusnotifier.cpp" line="423"/>
+        <location filename="../../src/statusnotifier.mm" line="52"/>
+        <location filename="../../src/statusnotifier.mm" line="396"/>
         <source>Trojan: Off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="54"/>
-        <location filename="../../src/statusnotifier.cpp" line="406"/>
-        <location filename="../../src/statusnotifier.mm" line="53"/>
-        <location filename="../../src/statusnotifier.mm" line="379"/>
+        <location filename="../../src/statusnotifier.cpp" line="55"/>
+        <location filename="../../src/statusnotifier.cpp" line="424"/>
+        <location filename="../../src/statusnotifier.mm" line="54"/>
+        <location filename="../../src/statusnotifier.mm" line="397"/>
         <source>Turn On Trojan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="58"/>
-        <location filename="../../src/statusnotifier.mm" line="57"/>
+        <location filename="../../src/statusnotifier.cpp" line="59"/>
+        <location filename="../../src/statusnotifier.mm" line="58"/>
         <source>Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="61"/>
-        <location filename="../../src/statusnotifier.mm" line="60"/>
+        <location filename="../../src/statusnotifier.cpp" line="62"/>
+        <location filename="../../src/statusnotifier.mm" line="61"/>
         <source>Disable system proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="62"/>
-        <location filename="../../src/statusnotifier.cpp" line="83"/>
-        <location filename="../../src/statusnotifier.mm" line="61"/>
-        <location filename="../../src/statusnotifier.mm" line="82"/>
-        <source>PAC</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../src/statusnotifier.cpp" line="63"/>
+        <location filename="../../src/statusnotifier.cpp" line="84"/>
         <location filename="../../src/statusnotifier.mm" line="62"/>
-        <source>Global</source>
+        <location filename="../../src/statusnotifier.mm" line="83"/>
+        <source>PAC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="64"/>
         <location filename="../../src/statusnotifier.mm" line="63"/>
-        <source>Advance</source>
+        <source>Global</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="84"/>
-        <location filename="../../src/statusnotifier.mm" line="83"/>
-        <source>Update local PAC from Lan IP list</source>
+        <location filename="../../src/statusnotifier.cpp" line="65"/>
+        <location filename="../../src/statusnotifier.mm" line="64"/>
+        <source>Advance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="85"/>
         <location filename="../../src/statusnotifier.mm" line="84"/>
-        <source>Update local PAC from Chn White list</source>
+        <source>Update local PAC from Lan IP list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="86"/>
         <location filename="../../src/statusnotifier.mm" line="85"/>
-        <source>Update local from Chn Advance White list</source>
+        <source>Update local PAC from Chn White list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="87"/>
         <location filename="../../src/statusnotifier.mm" line="86"/>
-        <source>Update local PAC from Chn IP list</source>
+        <source>Update local from Chn Advance White list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="88"/>
         <location filename="../../src/statusnotifier.mm" line="87"/>
-        <source>Update local PAC from GFWList</source>
+        <source>Update local PAC from Chn IP list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="89"/>
         <location filename="../../src/statusnotifier.mm" line="88"/>
-        <source>Update local PAC from Chn Only list</source>
+        <source>Update local PAC from GFWList</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="90"/>
         <location filename="../../src/statusnotifier.mm" line="89"/>
-        <source>Copy PAC URL</source>
+        <source>Update local PAC from Chn Only list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="91"/>
         <location filename="../../src/statusnotifier.mm" line="90"/>
-        <source>Edit local PAC file</source>
+        <source>Copy PAC URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="92"/>
         <location filename="../../src/statusnotifier.mm" line="91"/>
+        <source>Edit local PAC file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/statusnotifier.cpp" line="93"/>
+        <location filename="../../src/statusnotifier.mm" line="92"/>
         <source>Edit user rule for GFWList</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="107"/>
-        <location filename="../../src/statusnotifier.mm" line="106"/>
+        <location filename="../../src/statusnotifier.cpp" line="108"/>
+        <location filename="../../src/statusnotifier.mm" line="107"/>
         <source>Servers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../src/statusnotifier.cpp" line="110"/>
-        <location filename="../../src/statusnotifier.mm" line="109"/>
-        <source>Add Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="111"/>
         <location filename="../../src/statusnotifier.mm" line="110"/>
-        <source>Add Manually</source>
+        <source>Add Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="112"/>
         <location filename="../../src/statusnotifier.mm" line="111"/>
-        <source>Scan QRCode on Screen</source>
+        <source>Add Manually</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="113"/>
         <location filename="../../src/statusnotifier.mm" line="112"/>
-        <source>Add From Pasteboard Uri</source>
+        <source>Scan QRCode on Screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="119"/>
-        <location filename="../../src/statusnotifier.mm" line="118"/>
-        <source>Servers Subscribe</source>
+        <location filename="../../src/statusnotifier.cpp" line="114"/>
+        <location filename="../../src/statusnotifier.mm" line="113"/>
+        <source>Add From Pasteboard Uri</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="120"/>
         <location filename="../../src/statusnotifier.mm" line="119"/>
-        <source>Subscribe setting</source>
+        <source>Servers Subscribe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="121"/>
         <location filename="../../src/statusnotifier.mm" line="120"/>
-        <source>Update subscribe node</source>
+        <source>Subscribe setting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="122"/>
         <location filename="../../src/statusnotifier.mm" line="121"/>
+        <source>Update subscribe node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/statusnotifier.cpp" line="123"/>
+        <location filename="../../src/statusnotifier.mm" line="122"/>
         <source>Update subscribe node(bypass proxy)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="127"/>
-        <location filename="../../src/statusnotifier.mm" line="126"/>
+        <location filename="../../src/statusnotifier.cpp" line="128"/>
+        <location filename="../../src/statusnotifier.mm" line="127"/>
         <source>Server Load Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../src/statusnotifier.cpp" line="130"/>
-        <location filename="../../src/statusnotifier.mm" line="129"/>
-        <source>Server Speed Plot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="131"/>
         <location filename="../../src/statusnotifier.mm" line="130"/>
-        <source>Copy terminal proxy command</source>
+        <source>Server Speed Plot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="132"/>
         <location filename="../../src/statusnotifier.mm" line="131"/>
+        <source>Copy terminal proxy command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/statusnotifier.cpp" line="133"/>
+        <location filename="../../src/statusnotifier.mm" line="132"/>
         <source>Set Proxy to Telegram</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="134"/>
+        <location filename="../../src/statusnotifier.cpp" line="135"/>
         <source>Install TAP Driver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="277"/>
-        <location filename="../../src/statusnotifier.cpp" line="362"/>
-        <location filename="../../src/statusnotifier.mm" line="267"/>
-        <location filename="../../src/statusnotifier.mm" line="335"/>
+        <location filename="../../src/statusnotifier.cpp" line="295"/>
+        <location filename="../../src/statusnotifier.cpp" line="380"/>
+        <location filename="../../src/statusnotifier.mm" line="285"/>
+        <location filename="../../src/statusnotifier.mm" line="353"/>
         <source>Turn Off Trojan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/statusnotifier.cpp" line="361"/>
-        <location filename="../../src/statusnotifier.mm" line="334"/>
+        <location filename="../../src/statusnotifier.cpp" line="379"/>
+        <location filename="../../src/statusnotifier.mm" line="352"/>
         <source>Trojan: On</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../src/statusnotifier.cpp" line="137"/>
-        <location filename="../../src/statusnotifier.mm" line="133"/>
-        <source>Copy as Windows Style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="138"/>
         <location filename="../../src/statusnotifier.mm" line="134"/>
+        <source>Copy as Windows Style</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/statusnotifier.cpp" line="139"/>
+        <location filename="../../src/statusnotifier.mm" line="135"/>
         <source>Copy as Unix Style</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2541,6 +2621,26 @@ See the following link for a reference:
         <source>Alpn</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="632"/>
+        <source>Mux Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="638"/>
+        <source>Mux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="645"/>
+        <source>Mux Concurrency</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/streamwidget.ui" line="652"/>
+        <source>Enable</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SubscribeDialog</name>
@@ -2555,12 +2655,12 @@ See the following link for a reference:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/subscribedialog.ui" line="29"/>
+        <location filename="../../ui/subscribedialog.ui" line="32"/>
         <source>Group Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/subscribedialog.ui" line="36"/>
+        <location filename="../../ui/subscribedialog.ui" line="42"/>
         <source>Recent Update</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2593,125 +2693,205 @@ See the following link for a reference:
 <context>
     <name>TrojanEditDialog</name>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="14"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="26"/>
         <source>Profile Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="41"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="35"/>
+        <source>Trojan Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojaneditdialog.ui" line="45"/>
         <source>Profile Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="51"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="55"/>
         <source>Server Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="61"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="65"/>
         <source>Server Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../ui/trojaneditdialog.ui" line="75"/>
+        <source>Reset Data Usage After</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojaneditdialog.ui" line="119"/>
         <source>Verify Certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="82"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="123"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="137"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="151"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="165"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="179"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="213"/>
-        <location filename="../../ui/trojaneditdialog.ui" line="227"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="126"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="147"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="154"/>
         <source>Enable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="89"/>
-        <source>Password</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="106"/>
-        <source>SNI</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="116"/>
-        <source>Reuse Session</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="130"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="140"/>
         <source>Session Ticket</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="144"/>
-        <source>Reuse Port</source>
+        <location filename="../../ui/trojaneditdialog.ui" line="168"/>
+        <source>Trojan-Go Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="158"/>
-        <source>TCP Fast Open</source>
+        <location filename="../../ui/trojaneditdialog.ui" line="99"/>
+        <source>Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="172"/>
-        <source>Mux</source>
+        <location filename="../../ui/trojaneditdialog.ui" line="109"/>
+        <source>SNI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="206"/>
-        <source>Websocket</source>
+        <location filename="../../ui/trojaneditdialog.ui" line="133"/>
+        <source>Reuse Session</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="234"/>
-        <source>Websocket Path</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="244"/>
-        <source>Websocket Hostname</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="254"/>
-        <source>Websocket Obfs Password</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="264"/>
-        <source>Reset Data Usage after</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="284"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="85"/>
         <source>Automation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="297"/>
+        <location filename="../../ui/trojaneditdialog.ui" line="92"/>
         <source>Auto connect on application start</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>TrojanGoWidget</name>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="220"/>
-        <source>Websocket Double TLS</source>
+        <location filename="../../ui/trojangowidget.ui" line="14"/>
+        <source>Stream Settings Widget</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="186"/>
+        <location filename="../../ui/trojangowidget.ui" line="24"/>
+        <location filename="../../ui/trojangowidget.ui" line="30"/>
+        <source>Mux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="37"/>
+        <location filename="../../ui/trojangowidget.ui" line="95"/>
+        <location filename="../../ui/trojangowidget.ui" line="133"/>
+        <location filename="../../ui/trojangowidget.ui" line="190"/>
+        <source>Enable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="44"/>
         <source>Mux Concurrency</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="196"/>
+        <location filename="../../ui/trojangowidget.ui" line="51"/>
         <source>Mux Idle Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="65"/>
+        <location filename="../../ui/trojangowidget.ui" line="71"/>
+        <source>Websocket</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="78"/>
+        <source>Path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="85"/>
+        <source>Hostname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="106"/>
+        <location filename="../../ui/trojangowidget.ui" line="112"/>
+        <source>Shadowsocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="119"/>
+        <source>Method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="126"/>
+        <source>Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="141"/>
+        <source>aes-128-gcm</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="146"/>
+        <source>aes-256-gcm</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="151"/>
+        <source>chacha20-ietf-poly1305</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="163"/>
+        <location filename="../../ui/trojangowidget.ui" line="183"/>
+        <source>Transport Plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="169"/>
+        <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="176"/>
+        <source>Command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="198"/>
+        <source>shadowsocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="203"/>
+        <source>plaintext</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="208"/>
+        <source>other</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="219"/>
+        <source>Arg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="226"/>
+        <source>Env</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/trojangowidget.ui" line="233"/>
+        <source>Option</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2785,7 +2965,7 @@ See the following link for a reference:
     </message>
     <message>
         <location filename="../../ui/vmesseditdialog.ui" line="98"/>
-        <location filename="../../ui/vmesseditdialog.ui" line="196"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="134"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2800,53 +2980,42 @@ See the following link for a reference:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="126"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="147"/>
         <source>Tcp Fast Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="133"/>
-        <location filename="../../ui/vmesseditdialog.ui" line="171"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="154"/>
         <source>Enable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="140"/>
-        <source>Mux</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="147"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="161"/>
         <source>Reset Data Usage After</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="157"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="171"/>
         <source>Automation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="164"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="178"/>
         <source>Auto connect on application start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="178"/>
-        <source>Mux concurrency</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="188"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="126"/>
         <source>Tests Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="201"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="139"/>
         <source>VMessAEAD</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/vmesseditdialog.ui" line="216"/>
+        <location filename="../../ui/vmesseditdialog.ui" line="192"/>
         <source>Stream Settings</source>
         <translation type="unfinished"></translation>
     </message>

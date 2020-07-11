@@ -17,8 +17,9 @@ void NTPHelper::checkTime()
 
 void NTPHelper::onReplyReceived(QHostAddress host, quint16 port, NtpReply reply)
 {
-    uint offset = reply.localClockOffset() / 1000;
-    Logger::debug(QString("[NTP] Received ntp response, time offset is %1s").arg(QString::number(offset)));
+    uint offsetms = reply.localClockOffset();
+    uint offset = offsetms / 1000;
+    Logger::debug(QString("[NTP] Received ntp response, time offset is %1ms").arg(QString::number(offsetms)));
     if (qAbs(offset) >= 90)
         QMessageBox::warning(NULL, tr("Inaccurate Time Detected"), tr("Your time offset is over 90s.\nV2Ray will not work in this situtation."));
     else if (qAbs(offset) >= 15)

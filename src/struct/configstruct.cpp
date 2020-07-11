@@ -4,13 +4,13 @@
 
 QDataStream& operator << (QDataStream &out, const GeneralSettings &g)
 {
-    out << g.theme << g.systemTheme << g.toolBarStyle << g.language << g.logLevel << g.systemTrayMaximumServer << g.startAtLogin << g.hideWindowOnStartup << g.onlyOneInstace << g.checkPortAvailability << g.enableNotification << g.hideDockIcon << g.showToolbar << g.showFilterBar << g.nativeMenuBar << g.showAirportAndDonation;
+    out << g.theme << g.systemTheme << g.toolBarStyle << g.language << g.logLevel << g.systemTrayMaximumServer << g.startAtLogin << g.hideWindowOnStartup << g.onlyOneInstace << g.checkPortAvailability << g.checkTimeOnStartup << g.enableNotification << g.hideDockIcon << g.showToolbar << g.showFilterBar << g.nativeMenuBar << g.showAirportAndDonation;
     return out;
 }
 
 QDataStream& operator >> (QDataStream &in, GeneralSettings &g)
 {
-    in >> g.theme >> g.systemTheme >> g.toolBarStyle >> g.language >> g.logLevel >> g.systemTrayMaximumServer >> g.startAtLogin >> g.hideWindowOnStartup >> g.onlyOneInstace >> g.checkPortAvailability >> g.enableNotification >> g.hideDockIcon >> g.showToolbar >> g.showFilterBar >> g.nativeMenuBar >> g.showAirportAndDonation;
+    in >> g.theme >> g.systemTheme >> g.toolBarStyle >> g.language >> g.logLevel >> g.systemTrayMaximumServer >> g.startAtLogin >> g.hideWindowOnStartup >> g.onlyOneInstace >> g.checkPortAvailability >> g.checkTimeOnStartup >> g.enableNotification >> g.hideDockIcon >> g.showToolbar >> g.showFilterBar >> g.nativeMenuBar >> g.showAirportAndDonation;
     return in;
 }
 

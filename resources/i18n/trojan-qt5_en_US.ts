@@ -693,19 +693,19 @@ Checkout wiki for instructions</source>
 <context>
     <name>NTPHelper</name>
     <message>
-        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="24"/>
         <source>Your time offset is over 90s.
 V2Ray will not work in this situtation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
-        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="24"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="26"/>
         <source>Inaccurate Time Detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="26"/>
         <source>Your time offset is over 15s.
 Although V2Ray will work, we still suggest you adjust your system clock.</source>
         <translation type="unfinished"></translation>
@@ -1564,21 +1564,22 @@ See the following link for a reference:
         <location filename="../../ui/settingsdialog.ui" line="268"/>
         <location filename="../../ui/settingsdialog.ui" line="282"/>
         <location filename="../../ui/settingsdialog.ui" line="296"/>
-        <location filename="../../ui/settingsdialog.ui" line="386"/>
+        <location filename="../../ui/settingsdialog.ui" line="372"/>
         <location filename="../../ui/settingsdialog.ui" line="400"/>
         <location filename="../../ui/settingsdialog.ui" line="414"/>
-        <location filename="../../ui/settingsdialog.ui" line="478"/>
-        <location filename="../../ui/settingsdialog.ui" line="554"/>
-        <location filename="../../ui/settingsdialog.ui" line="587"/>
+        <location filename="../../ui/settingsdialog.ui" line="428"/>
+        <location filename="../../ui/settingsdialog.ui" line="492"/>
+        <location filename="../../ui/settingsdialog.ui" line="568"/>
         <location filename="../../ui/settingsdialog.ui" line="601"/>
         <location filename="../../ui/settingsdialog.ui" line="615"/>
         <location filename="../../ui/settingsdialog.ui" line="629"/>
-        <location filename="../../ui/settingsdialog.ui" line="773"/>
-        <location filename="../../ui/settingsdialog.ui" line="780"/>
-        <location filename="../../ui/settingsdialog.ui" line="912"/>
-        <location filename="../../ui/settingsdialog.ui" line="997"/>
+        <location filename="../../ui/settingsdialog.ui" line="643"/>
+        <location filename="../../ui/settingsdialog.ui" line="787"/>
+        <location filename="../../ui/settingsdialog.ui" line="794"/>
+        <location filename="../../ui/settingsdialog.ui" line="926"/>
         <location filename="../../ui/settingsdialog.ui" line="1011"/>
         <location filename="../../ui/settingsdialog.ui" line="1025"/>
+        <location filename="../../ui/settingsdialog.ui" line="1039"/>
         <source>Enable</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1674,355 +1675,360 @@ See the following link for a reference:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="368"/>
+        <location filename="../../ui/settingsdialog.ui" line="365"/>
+        <source>Check Time on startup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="382"/>
         <source>Inbound Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="379"/>
+        <location filename="../../ui/settingsdialog.ui" line="393"/>
         <source>Enable Http Proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="393"/>
+        <location filename="../../ui/settingsdialog.ui" line="407"/>
         <source>Enable IPV6 Support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="407"/>
+        <location filename="../../ui/settingsdialog.ui" line="421"/>
         <source>Share Over LAN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="421"/>
+        <location filename="../../ui/settingsdialog.ui" line="435"/>
         <source>Sock5 Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="431"/>
+        <location filename="../../ui/settingsdialog.ui" line="445"/>
         <source>Http Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="441"/>
+        <location filename="../../ui/settingsdialog.ui" line="455"/>
         <source>PAC Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="451"/>
+        <location filename="../../ui/settingsdialog.ui" line="465"/>
         <source>Haproxy Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="461"/>
+        <location filename="../../ui/settingsdialog.ui" line="475"/>
         <source>Haproxy Status Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="471"/>
+        <location filename="../../ui/settingsdialog.ui" line="485"/>
         <source>Inbound Sniffing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="488"/>
+        <location filename="../../ui/settingsdialog.ui" line="502"/>
         <source>Outbond Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="499"/>
+        <location filename="../../ui/settingsdialog.ui" line="513"/>
         <source>Forward Proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="506"/>
+        <location filename="../../ui/settingsdialog.ui" line="520"/>
         <source>IP Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="513"/>
+        <location filename="../../ui/settingsdialog.ui" line="527"/>
         <source>Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="520"/>
+        <location filename="../../ui/settingsdialog.ui" line="534"/>
         <source>Authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="527"/>
+        <location filename="../../ui/settingsdialog.ui" line="541"/>
         <source>Username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="537"/>
+        <location filename="../../ui/settingsdialog.ui" line="551"/>
         <source>Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="547"/>
+        <location filename="../../ui/settingsdialog.ui" line="561"/>
         <source>Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="568"/>
+        <location filename="../../ui/settingsdialog.ui" line="582"/>
         <source>http</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="573"/>
+        <location filename="../../ui/settingsdialog.ui" line="587"/>
         <source>socks5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="594"/>
+        <location filename="../../ui/settingsdialog.ui" line="608"/>
         <source>Bypass Bittorrent Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="608"/>
+        <location filename="../../ui/settingsdialog.ui" line="622"/>
         <source>Bypass China Mainland</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="622"/>
+        <location filename="../../ui/settingsdialog.ui" line="636"/>
         <source>Bypass Private Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="639"/>
+        <location filename="../../ui/settingsdialog.ui" line="653"/>
         <source>Test Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="647"/>
+        <location filename="../../ui/settingsdialog.ui" line="661"/>
         <source>Latency Test Method</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="655"/>
+        <location filename="../../ui/settingsdialog.ui" line="669"/>
         <source>TCP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="660"/>
+        <location filename="../../ui/settingsdialog.ui" line="674"/>
         <source>CONNECT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="668"/>
+        <location filename="../../ui/settingsdialog.ui" line="682"/>
         <source>Real Lantency Test Url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="678"/>
+        <location filename="../../ui/settingsdialog.ui" line="692"/>
         <source>Speed Test Url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="691"/>
+        <location filename="../../ui/settingsdialog.ui" line="705"/>
         <source>Graph Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="699"/>
+        <location filename="../../ui/settingsdialog.ui" line="713"/>
         <source>Proxy Download Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="719"/>
+        <location filename="../../ui/settingsdialog.ui" line="733"/>
         <source>Proxy Upload Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="739"/>
+        <location filename="../../ui/settingsdialog.ui" line="753"/>
         <source>Direct Download Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="749"/>
+        <location filename="../../ui/settingsdialog.ui" line="763"/>
         <source>Direct Upload Speed Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="759"/>
+        <location filename="../../ui/settingsdialog.ui" line="773"/>
         <source>Detail Outbound Proxy Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="766"/>
+        <location filename="../../ui/settingsdialog.ui" line="780"/>
         <source>Detail Outbound Direct Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="932"/>
+        <location filename="../../ui/settingsdialog.ui" line="946"/>
         <source>Core Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="712"/>
-        <location filename="../../ui/settingsdialog.ui" line="732"/>
+        <location filename="../../ui/settingsdialog.ui" line="726"/>
+        <location filename="../../ui/settingsdialog.ui" line="746"/>
         <source>PushButton</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="790"/>
+        <location filename="../../ui/settingsdialog.ui" line="804"/>
         <source>Subscribe Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="801"/>
+        <location filename="../../ui/settingsdialog.ui" line="815"/>
         <source>GFWList Update Url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="815"/>
+        <location filename="../../ui/settingsdialog.ui" line="829"/>
         <source>gfwlist/gfwlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="820"/>
+        <location filename="../../ui/settingsdialog.ui" line="834"/>
         <source>Loukky/gfwlist-by-loukky</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="825"/>
+        <location filename="../../ui/settingsdialog.ui" line="839"/>
         <source>Local File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="833"/>
+        <location filename="../../ui/settingsdialog.ui" line="847"/>
         <source>Update User Agent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="843"/>
+        <location filename="../../ui/settingsdialog.ui" line="857"/>
         <source>Filter Keyword (,)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="853"/>
+        <location filename="../../ui/settingsdialog.ui" line="867"/>
         <source>Maximum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="863"/>
+        <location filename="../../ui/settingsdialog.ui" line="877"/>
         <source>Overwrite AllowInsecure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="870"/>
         <location filename="../../ui/settingsdialog.ui" line="884"/>
         <location filename="../../ui/settingsdialog.ui" line="898"/>
+        <location filename="../../ui/settingsdialog.ui" line="912"/>
         <source>Overwrite</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="877"/>
+        <location filename="../../ui/settingsdialog.ui" line="891"/>
         <source>Overwrite AllowInsecureCiphers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="891"/>
+        <location filename="../../ui/settingsdialog.ui" line="905"/>
         <source>Overwirte TcpFastOpen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="905"/>
+        <location filename="../../ui/settingsdialog.ui" line="919"/>
         <source>Auto fetch group name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="922"/>
+        <location filename="../../ui/settingsdialog.ui" line="936"/>
         <source>Router Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="943"/>
+        <location filename="../../ui/settingsdialog.ui" line="957"/>
         <source>TLS Fingerprint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="957"/>
+        <location filename="../../ui/settingsdialog.ui" line="971"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="962"/>
+        <location filename="../../ui/settingsdialog.ui" line="976"/>
         <source>auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="967"/>
+        <location filename="../../ui/settingsdialog.ui" line="981"/>
         <source>firefox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="972"/>
+        <location filename="../../ui/settingsdialog.ui" line="986"/>
         <source>chrome</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="977"/>
+        <location filename="../../ui/settingsdialog.ui" line="991"/>
         <source>ios</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="982"/>
+        <location filename="../../ui/settingsdialog.ui" line="996"/>
         <source>randomized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="990"/>
+        <location filename="../../ui/settingsdialog.ui" line="1004"/>
         <source>Enable Router</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1004"/>
+        <location filename="../../ui/settingsdialog.ui" line="1018"/>
         <source>Enable API</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1018"/>
+        <location filename="../../ui/settingsdialog.ui" line="1032"/>
         <source>Count Outbound Traffic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1032"/>
+        <location filename="../../ui/settingsdialog.ui" line="1046"/>
         <source>Geo Path</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1042"/>
+        <location filename="../../ui/settingsdialog.ui" line="1056"/>
         <source>API Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1052"/>
+        <location filename="../../ui/settingsdialog.ui" line="1066"/>
         <source>Cert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1062"/>
+        <location filename="../../ui/settingsdialog.ui" line="1076"/>
         <source>Cipher</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1072"/>
+        <location filename="../../ui/settingsdialog.ui" line="1086"/>
         <source>Cipher TLS13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1082"/>
+        <location filename="../../ui/settingsdialog.ui" line="1096"/>
         <source>Buffer Size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="130"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="131"/>
         <source>Invalid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="131"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="132"/>
         <source>You can not hide dock Icon and use native menu bar at the same time</source>
         <translation type="unfinished"></translation>
     </message>

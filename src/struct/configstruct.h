@@ -16,6 +16,7 @@ struct GeneralSettings {
     bool hideWindowOnStartup = false;
     bool onlyOneInstace = true;
     bool checkPortAvailability = true;
+    bool checkTimeOnStartup = true;
     bool enableNotification = true;
     bool hideDockIcon = false;
     bool showToolbar = true;

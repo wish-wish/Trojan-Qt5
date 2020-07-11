@@ -190,9 +190,11 @@ int main(int argc, char *argv[])
 
     a.installEventFilter(new EventFilter(&w));
 
-    // check time accuracy
-    NTPHelper *ntp = new NTPHelper();
-    ntp->checkTime();
+    if (conf.getGeneralSettings().checkTimeOnStartup) {
+        // check time accuracy
+        NTPHelper *ntp = new NTPHelper();
+        ntp->checkTime();
+    }
 
     if (conf.getGeneralSettings().onlyOneInstace && w.isInstanceRunning()) {
         return -1;

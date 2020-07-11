@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ja_JP">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja_JP" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -51,17 +49,17 @@
     <message>
         <location filename="../../ui/aboutdialog.ui" line="248"/>
         <source>Airport Recommandation</source>
-        <translation>サービスプロバイダーの推奨</translation>
+        <translation>おすすめのサービスプロバイダー</translation>
     </message>
     <message>
         <location filename="../../ui/aboutdialog.ui" line="279"/>
         <source>Airport Recommandation 2</source>
-        <translation>サービスプロバイダーの推奨2</translation>
+        <translation>おすすめのサービスプロバイダー2</translation>
     </message>
     <message>
         <location filename="../../ui/aboutdialog.ui" line="310"/>
         <source>Airport Recommandation 3</source>
-        <translation type="unfinished">サービスプロバイダーの推奨3</translation>
+        <translation>おすすめのサービスプロバイダー3</translation>
     </message>
     <message>
         <location filename="../../ui/aboutdialog.ui" line="338"/>
@@ -193,7 +191,7 @@ wikiや説明ドキュメントをご確認ください</translation>
     <message>
         <location filename="../../src/connectiontablemodel.cpp" line="54"/>
         <source>Term Usage</source>
-        <translation>利用規約</translation>
+        <translation>今期使用量</translation>
     </message>
     <message>
         <location filename="../../src/connectiontablemodel.cpp" line="56"/>
@@ -555,7 +553,7 @@ wikiや説明ドキュメントをご確認ください</translation>
     <message>
         <location filename="../../ui/mainwindow.ui" line="747"/>
         <source>Connect to this connection and disconnect any connections currently using  the same local port</source>
-        <translation>この接続に接続し、同じポートを使用中の既存接続を切断する</translation>
+        <translation>この接続に接続し、同じポートを使用中の既存接続を切断する。</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="757"/>
@@ -695,22 +693,24 @@ wikiや説明ドキュメントをご確認ください</translation>
 <context>
     <name>NTPHelper</name>
     <message>
-        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="24"/>
         <source>Your time offset is over 90s.
 V2Ray will not work in this situtation.</source>
-        <translation type="unfinished"></translation>
+        <translation>システム時刻が現在時に比べて90秒以上ずれています
+今のままではV2Rayは作動できません。</translation>
     </message>
     <message>
-        <location filename="../../src/utils/ntphelper.cpp" line="23"/>
-        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="24"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="26"/>
         <source>Inaccurate Time Detected</source>
-        <translation type="unfinished"></translation>
+        <translation>時刻が不正確です</translation>
     </message>
     <message>
-        <location filename="../../src/utils/ntphelper.cpp" line="25"/>
+        <location filename="../../src/utils/ntphelper.cpp" line="26"/>
         <source>Your time offset is over 15s.
 Although V2Ray will work, we still suggest you adjust your system clock.</source>
-        <translation type="unfinished"></translation>
+        <translation>システム時刻が現在時に比べて15秒以上ずれています
+今のままではV2Rayは作動できますが、システム時刻の修正を推奨します。</translation>
     </message>
 </context>
 <context>
@@ -814,7 +814,7 @@ Although V2Ray will work, we still suggest you adjust your system clock.</source
 See the following link for a reference:
 %1</source>
         <translation>本アプリケーションを管理者/root権限で起動する必要があります
-このリンクをご参照ください
+このリンクをご参照ください：
 %1</translation>
     </message>
 </context>
@@ -1557,7 +1557,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/settingsdialog.ui" line="191"/>
         <source>Allow Only one instance running</source>
-        <translation>インスタンスの同時実行数を一つに限定</translation>
+        <translation>インスタンスの同時実行数を一つにする</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="198"/>
@@ -1568,28 +1568,29 @@ See the following link for a reference:
         <location filename="../../ui/settingsdialog.ui" line="268"/>
         <location filename="../../ui/settingsdialog.ui" line="282"/>
         <location filename="../../ui/settingsdialog.ui" line="296"/>
-        <location filename="../../ui/settingsdialog.ui" line="386"/>
+        <location filename="../../ui/settingsdialog.ui" line="372"/>
         <location filename="../../ui/settingsdialog.ui" line="400"/>
         <location filename="../../ui/settingsdialog.ui" line="414"/>
-        <location filename="../../ui/settingsdialog.ui" line="478"/>
-        <location filename="../../ui/settingsdialog.ui" line="554"/>
-        <location filename="../../ui/settingsdialog.ui" line="587"/>
+        <location filename="../../ui/settingsdialog.ui" line="428"/>
+        <location filename="../../ui/settingsdialog.ui" line="492"/>
+        <location filename="../../ui/settingsdialog.ui" line="568"/>
         <location filename="../../ui/settingsdialog.ui" line="601"/>
         <location filename="../../ui/settingsdialog.ui" line="615"/>
         <location filename="../../ui/settingsdialog.ui" line="629"/>
-        <location filename="../../ui/settingsdialog.ui" line="773"/>
-        <location filename="../../ui/settingsdialog.ui" line="780"/>
-        <location filename="../../ui/settingsdialog.ui" line="912"/>
-        <location filename="../../ui/settingsdialog.ui" line="997"/>
+        <location filename="../../ui/settingsdialog.ui" line="643"/>
+        <location filename="../../ui/settingsdialog.ui" line="787"/>
+        <location filename="../../ui/settingsdialog.ui" line="794"/>
+        <location filename="../../ui/settingsdialog.ui" line="926"/>
         <location filename="../../ui/settingsdialog.ui" line="1011"/>
         <location filename="../../ui/settingsdialog.ui" line="1025"/>
+        <location filename="../../ui/settingsdialog.ui" line="1039"/>
         <source>Enable</source>
         <translation>有効</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="205"/>
         <source>Check Port Availability</source>
-        <translation>ポートの可用性をチェック</translation>
+        <translation>ポートの可用性を確認</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="219"/>
@@ -1624,7 +1625,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/settingsdialog.ui" line="289"/>
         <source>Show Airport &amp; Donation</source>
-        <translation>おすすめサービスプロバイダーと寄付を表示</translation>
+        <translation>おすすめのサービスプロバイダーと寄付を表示</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="181"/>
@@ -1678,369 +1679,362 @@ See the following link for a reference:
         <translation>ja_JP</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="368"/>
+        <location filename="../../ui/settingsdialog.ui" line="365"/>
+        <source>Check Time on startup</source>
+        <translation>起動時にシステム時刻をチェック</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="382"/>
         <source>Inbound Settings</source>
         <translation>インバウンド設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="379"/>
+        <location filename="../../ui/settingsdialog.ui" line="393"/>
         <source>Enable Http Proxy</source>
         <translation>Httpプロキシを有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="393"/>
+        <location filename="../../ui/settingsdialog.ui" line="407"/>
         <source>Enable IPV6 Support</source>
         <translation>IPV6サポートを有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="407"/>
+        <location filename="../../ui/settingsdialog.ui" line="421"/>
         <source>Share Over LAN</source>
         <translation>プロキシをLAN内で共有</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="421"/>
+        <location filename="../../ui/settingsdialog.ui" line="435"/>
         <source>Sock5 Port</source>
         <translation>Sock5ポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="431"/>
+        <location filename="../../ui/settingsdialog.ui" line="445"/>
         <source>Http Port</source>
         <translation>Httpポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="441"/>
+        <location filename="../../ui/settingsdialog.ui" line="455"/>
         <source>PAC Port</source>
         <translation>PACポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="451"/>
+        <location filename="../../ui/settingsdialog.ui" line="465"/>
         <source>Haproxy Port</source>
         <translation>Haproxyポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="461"/>
+        <location filename="../../ui/settingsdialog.ui" line="475"/>
         <source>Haproxy Status Port</source>
         <translation>Haproxy Statusポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="471"/>
+        <location filename="../../ui/settingsdialog.ui" line="485"/>
         <source>Inbound Sniffing</source>
         <translation>インバウンドスニッフィング</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="488"/>
+        <location filename="../../ui/settingsdialog.ui" line="502"/>
         <source>Outbond Settings</source>
         <translation>アウトバウンド設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="499"/>
+        <location filename="../../ui/settingsdialog.ui" line="513"/>
         <source>Forward Proxy</source>
         <translation>フォワードプロキシ</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="506"/>
+        <location filename="../../ui/settingsdialog.ui" line="520"/>
         <source>IP Address</source>
         <translation>IPアドレス</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="513"/>
+        <location filename="../../ui/settingsdialog.ui" line="527"/>
         <source>Port</source>
         <translation>ポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="520"/>
+        <location filename="../../ui/settingsdialog.ui" line="534"/>
         <source>Authentication</source>
         <translation>認証</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="527"/>
+        <location filename="../../ui/settingsdialog.ui" line="541"/>
         <source>Username</source>
         <translation>ユーザー名</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="537"/>
+        <location filename="../../ui/settingsdialog.ui" line="551"/>
         <source>Password</source>
         <translation>パスワード</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="547"/>
+        <location filename="../../ui/settingsdialog.ui" line="561"/>
         <source>Type</source>
         <translation>タイプ</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="568"/>
+        <location filename="../../ui/settingsdialog.ui" line="582"/>
         <source>http</source>
         <translation>http</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="573"/>
+        <location filename="../../ui/settingsdialog.ui" line="587"/>
         <source>socks5</source>
         <translation>socks5</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="594"/>
-        <source>Bypass Bittorrent Traffic</source>
-        <translation>Bittorrentトラフィックを経由させない</translation>
-    </message>
-    <message>
         <location filename="../../ui/settingsdialog.ui" line="608"/>
-        <source>Bypass China Mainland</source>
-        <translation>中国IP&amp;ドメインを経由させない</translation>
+        <source>Bypass Bittorrent Traffic</source>
+        <translation>Bittorrentトラフィックを迂回させる</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="622"/>
-        <source>Bypass Private Address</source>
-        <translation type="unfinished"></translation>
+        <source>Bypass China Mainland</source>
+        <translation>中国IP&amp;ドメインを迂回させる</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="639"/>
+        <location filename="../../ui/settingsdialog.ui" line="636"/>
+        <source>Bypass Private Address</source>
+        <translation>プライベートアドレスを迂回させる</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="653"/>
         <source>Test Settings</source>
         <translation>テスト設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="647"/>
+        <location filename="../../ui/settingsdialog.ui" line="661"/>
         <source>Latency Test Method</source>
         <translation>遅延テスト方式</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="655"/>
+        <location filename="../../ui/settingsdialog.ui" line="669"/>
         <source>TCP</source>
         <translation>TCP</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="660"/>
+        <location filename="../../ui/settingsdialog.ui" line="674"/>
         <source>CONNECT</source>
         <translation>CONNECT</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="668"/>
+        <location filename="../../ui/settingsdialog.ui" line="682"/>
         <source>Real Lantency Test Url</source>
         <translation>実際の通信遅延をテストする為のUrl</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="678"/>
+        <location filename="../../ui/settingsdialog.ui" line="692"/>
         <source>Speed Test Url</source>
         <translation>ダウンロード速度をテストする為のファイルUrl</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="691"/>
+        <location filename="../../ui/settingsdialog.ui" line="705"/>
         <source>Graph Settings</source>
         <translation>グラフ設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="699"/>
+        <location filename="../../ui/settingsdialog.ui" line="713"/>
         <source>Proxy Download Speed Color</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシダウンロード速度のカラー</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="719"/>
+        <location filename="../../ui/settingsdialog.ui" line="733"/>
         <source>Proxy Upload Speed Color</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシアップロード速度のカラー</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="739"/>
+        <location filename="../../ui/settingsdialog.ui" line="753"/>
         <source>Direct Download Speed Color</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイレクトダウンロード速度のカラー</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="749"/>
+        <location filename="../../ui/settingsdialog.ui" line="763"/>
         <source>Direct Upload Speed Color</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイレクトアップロード速度のカラー</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="759"/>
+        <location filename="../../ui/settingsdialog.ui" line="773"/>
         <source>Detail Outbound Proxy Traffic</source>
-        <translation type="unfinished"></translation>
+        <translation>アウトバウンドプロキシトラフィックの詳細</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="766"/>
+        <location filename="../../ui/settingsdialog.ui" line="780"/>
         <source>Detail Outbound Direct Traffic</source>
-        <translation type="unfinished"></translation>
+        <translation>アウトバウンドダイレクトトラフィックの詳細</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="932"/>
+        <location filename="../../ui/settingsdialog.ui" line="946"/>
         <source>Core Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>コア設定</translation>
     </message>
     <message>
-        <source>Download Speed Color</source>
-        <translation type="vanished">ダウンロード速度のカラー</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settingsdialog.ui" line="712"/>
-        <location filename="../../ui/settingsdialog.ui" line="732"/>
+        <location filename="../../ui/settingsdialog.ui" line="726"/>
+        <location filename="../../ui/settingsdialog.ui" line="746"/>
         <source>PushButton</source>
         <translation>PushButton</translation>
     </message>
     <message>
-        <source>Upload Speed Color</source>
-        <translation type="vanished">アップロード速度のカラー</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settingsdialog.ui" line="790"/>
+        <location filename="../../ui/settingsdialog.ui" line="804"/>
         <source>Subscribe Settings</source>
         <translation>サブスクライブ設定</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="801"/>
+        <location filename="../../ui/settingsdialog.ui" line="815"/>
         <source>GFWList Update Url</source>
         <translation>GFWListアップデートUrl</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="815"/>
+        <location filename="../../ui/settingsdialog.ui" line="829"/>
         <source>gfwlist/gfwlist</source>
         <translation>gfwlist/gfwlist</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="820"/>
+        <location filename="../../ui/settingsdialog.ui" line="834"/>
         <source>Loukky/gfwlist-by-loukky</source>
         <translation>Loukky/gfwlist-by-loukky</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="825"/>
+        <location filename="../../ui/settingsdialog.ui" line="839"/>
         <source>Local File</source>
         <translation>ローカルファイル</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="833"/>
+        <location filename="../../ui/settingsdialog.ui" line="847"/>
         <source>Update User Agent</source>
         <translation>アップデートを行う際に使うユーザエージェント</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="843"/>
+        <location filename="../../ui/settingsdialog.ui" line="857"/>
         <source>Filter Keyword (,)</source>
         <translation>Filter Keyword (,)</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="853"/>
+        <location filename="../../ui/settingsdialog.ui" line="867"/>
         <source>Maximum</source>
         <translation>最大サーバー取得数</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="863"/>
+        <location filename="../../ui/settingsdialog.ui" line="877"/>
         <source>Overwrite AllowInsecure</source>
         <translation>AllowInsecureを常に有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="870"/>
         <location filename="../../ui/settingsdialog.ui" line="884"/>
         <location filename="../../ui/settingsdialog.ui" line="898"/>
+        <location filename="../../ui/settingsdialog.ui" line="912"/>
         <source>Overwrite</source>
         <translation>上書き</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="877"/>
+        <location filename="../../ui/settingsdialog.ui" line="891"/>
         <source>Overwrite AllowInsecureCiphers</source>
         <translation>AllowInsecureCiphersを常に有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="891"/>
+        <location filename="../../ui/settingsdialog.ui" line="905"/>
         <source>Overwirte TcpFastOpen</source>
         <translation>TcpFastOpenを常に有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="905"/>
+        <location filename="../../ui/settingsdialog.ui" line="919"/>
         <source>Auto fetch group name</source>
         <translation>自動的にグループ名を取得</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="922"/>
+        <location filename="../../ui/settingsdialog.ui" line="936"/>
         <source>Router Settings</source>
         <translation>ルーター設定</translation>
     </message>
     <message>
-        <source>Trojan Settings</source>
-        <translation type="vanished">Trojan設定</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settingsdialog.ui" line="943"/>
+        <location filename="../../ui/settingsdialog.ui" line="957"/>
         <source>TLS Fingerprint</source>
         <translation>TLSフィンガープリント</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="957"/>
+        <location filename="../../ui/settingsdialog.ui" line="971"/>
         <source>none</source>
         <translation>none</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="962"/>
+        <location filename="../../ui/settingsdialog.ui" line="976"/>
         <source>auto</source>
         <translation>auto</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="967"/>
+        <location filename="../../ui/settingsdialog.ui" line="981"/>
         <source>firefox</source>
         <translation>firefox</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="972"/>
+        <location filename="../../ui/settingsdialog.ui" line="986"/>
         <source>chrome</source>
         <translation>chrome</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="977"/>
+        <location filename="../../ui/settingsdialog.ui" line="991"/>
         <source>ios</source>
         <translation>ios</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="982"/>
+        <location filename="../../ui/settingsdialog.ui" line="996"/>
         <source>randomized</source>
         <translation>randomized</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="990"/>
+        <location filename="../../ui/settingsdialog.ui" line="1004"/>
         <source>Enable Router</source>
         <translation>ルーター機能を有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1004"/>
+        <location filename="../../ui/settingsdialog.ui" line="1018"/>
         <source>Enable API</source>
         <translation>APIを有効にする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1018"/>
-        <source>Count Outbound Traffic</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../ui/settingsdialog.ui" line="1032"/>
-        <source>Geo Path</source>
-        <translation>Geoパース</translation>
+        <source>Count Outbound Traffic</source>
+        <translation>アウトバウンドトラフィックをカウントする</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1042"/>
+        <location filename="../../ui/settingsdialog.ui" line="1046"/>
+        <source>Geo Path</source>
+        <translation>Geoファイルパース</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settingsdialog.ui" line="1056"/>
         <source>API Port</source>
         <translation>APIポート</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1052"/>
+        <location filename="../../ui/settingsdialog.ui" line="1066"/>
         <source>Cert</source>
         <translation>Certパース</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1062"/>
+        <location filename="../../ui/settingsdialog.ui" line="1076"/>
         <source>Cipher</source>
         <translation>暗号化方式</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1072"/>
+        <location filename="../../ui/settingsdialog.ui" line="1086"/>
         <source>Cipher TLS13</source>
         <translation>TLS1.3の暗号化方式</translation>
     </message>
     <message>
-        <location filename="../../ui/settingsdialog.ui" line="1082"/>
+        <location filename="../../ui/settingsdialog.ui" line="1096"/>
         <source>Buffer Size</source>
         <translation>バッファサイズ</translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="130"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="131"/>
         <source>Invalid</source>
         <translation>無効な情報</translation>
     </message>
     <message>
-        <location filename="../../src/dialog/settingsdialog.cpp" line="131"/>
+        <location filename="../../src/dialog/settingsdialog.cpp" line="132"/>
         <source>You can not hide dock Icon and use native menu bar at the same time</source>
-        <translation>ドックのアイコンを非表示にしたままの状態で、ネイティブメニューバーを利用することはできません</translation>
+        <translation>ドックのアイコンを非表示にしたままの状態で、ネイティブメニューバーを利用することはできません。</translation>
     </message>
 </context>
 <context>
@@ -2198,42 +2192,34 @@ See the following link for a reference:
 <context>
     <name>SpeedPlotView</name>
     <message>
-        <source>Total Upload</source>
-        <translation type="vanished">アップロード総量</translation>
-    </message>
-    <message>
-        <source>Total Download</source>
-        <translation type="vanished">ダウンロード総量</translation>
-    </message>
-    <message>
         <location filename="../../src/speedplot/speedplotview.cpp" line="190"/>
         <source>Proxy ↑</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシ ↑</translation>
     </message>
     <message>
         <location filename="../../src/speedplot/speedplotview.cpp" line="192"/>
         <source>Proxy ↓</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシ ↓</translation>
     </message>
     <message>
         <location filename="../../src/speedplot/speedplotview.cpp" line="195"/>
         <source>Direct ↑</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイレクト ↑</translation>
     </message>
     <message>
         <location filename="../../src/speedplot/speedplotview.cpp" line="197"/>
         <source>Direct ↓</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイレクト ↓</translation>
     </message>
     <message>
         <location filename="../../src/speedplot/speedplotview.cpp" line="201"/>
         <source>Total ↑</source>
-        <translation type="unfinished"></translation>
+        <translation>トータル ↑</translation>
     </message>
     <message>
         <location filename="../../src/speedplot/speedplotview.cpp" line="203"/>
         <source>Total ↓</source>
-        <translation type="unfinished"></translation>
+        <translation>トータル ↓</translation>
     </message>
 </context>
 <context>
@@ -2345,25 +2331,25 @@ See the following link for a reference:
         <location filename="../../src/statusnotifier.cpp" line="85"/>
         <location filename="../../src/statusnotifier.mm" line="84"/>
         <source>Update local PAC from Lan IP list</source>
-        <translation>ローカルPACをLan IPバイアスにアップデート</translation>
+        <translation>ローカルPACをLan IP迂回にアップデート</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="86"/>
         <location filename="../../src/statusnotifier.mm" line="85"/>
         <source>Update local PAC from Chn White list</source>
-        <translation>ローカルPACを中国ドメインホワイトリストにアップデート</translation>
+        <translation>ローカルPACを中国ドメイン迂回にアップデート</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="87"/>
         <location filename="../../src/statusnotifier.mm" line="86"/>
         <source>Update local from Chn Advance White list</source>
-        <translation>ローカルPACを中国ドメインアドバンスホワイトリストにアップデート</translation>
+        <translation>ローカルPACをアドバンス中国ドメイン迂回にアップデート</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="88"/>
         <location filename="../../src/statusnotifier.mm" line="87"/>
         <source>Update local PAC from Chn IP list</source>
-        <translation>ローカルPACを中国IPバイアスにアップデート</translation>
+        <translation>ローカルPACを中国IP迂回にアップデート</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="89"/>
@@ -2375,7 +2361,7 @@ See the following link for a reference:
         <location filename="../../src/statusnotifier.cpp" line="90"/>
         <location filename="../../src/statusnotifier.mm" line="89"/>
         <source>Update local PAC from Chn Only list</source>
-        <translation>ローカルPACをChn Onlyにアップデート（プロキシサーバーに中国のドメインしか経由させない）</translation>
+        <translation>ローカルPACを訪中モードにアップデート（プロキシに中国のドメインしか経由させない）</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="91"/>
@@ -2648,22 +2634,22 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/streamwidget.ui" line="632"/>
         <source>Mux Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Mux設定</translation>
     </message>
     <message>
         <location filename="../../ui/streamwidget.ui" line="638"/>
         <source>Mux</source>
-        <translation type="unfinished">Mux</translation>
+        <translation>Mux</translation>
     </message>
     <message>
         <location filename="../../ui/streamwidget.ui" line="645"/>
         <source>Mux Concurrency</source>
-        <translation type="unfinished">Mux並行数</translation>
+        <translation>Mux並行数</translation>
     </message>
     <message>
         <location filename="../../ui/streamwidget.ui" line="652"/>
         <source>Enable</source>
-        <translation type="unfinished">有効</translation>
+        <translation>有効</translation>
     </message>
 </context>
 <context>
@@ -2724,7 +2710,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/trojaneditdialog.ui" line="35"/>
         <source>Trojan Settings</source>
-        <translation type="unfinished">Trojan設定</translation>
+        <translation>Trojan設定</translation>
     </message>
     <message>
         <location filename="../../ui/trojaneditdialog.ui" line="45"/>
@@ -2744,7 +2730,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/trojaneditdialog.ui" line="75"/>
         <source>Reset Data Usage After</source>
-        <translation type="unfinished">トラフィック用量のリセット日</translation>
+        <translation>トラフィック用量のリセット日</translation>
     </message>
     <message>
         <location filename="../../ui/trojaneditdialog.ui" line="119"/>
@@ -2759,9 +2745,14 @@ See the following link for a reference:
         <translation>有効</translation>
     </message>
     <message>
+        <location filename="../../ui/trojaneditdialog.ui" line="140"/>
+        <source>Session Ticket</source>
+        <translation>セッションチケット</translation>
+    </message>
+    <message>
         <location filename="../../ui/trojaneditdialog.ui" line="168"/>
         <source>Trojan-Go Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Trojan-Go設定</translation>
     </message>
     <message>
         <location filename="../../ui/trojaneditdialog.ui" line="99"/>
@@ -2779,43 +2770,6 @@ See the following link for a reference:
         <translation>セッションの再利用</translation>
     </message>
     <message>
-        <location filename="../../ui/trojaneditdialog.ui" line="140"/>
-        <source>Session Ticket</source>
-        <translation>Session Ticket</translation>
-    </message>
-    <message>
-        <source>Reuse Port</source>
-        <translation type="vanished">ポートの再利用</translation>
-    </message>
-    <message>
-        <source>TCP Fast Open</source>
-        <translation type="vanished">TCP Fast Open</translation>
-    </message>
-    <message>
-        <source>Mux</source>
-        <translation type="vanished">Mux</translation>
-    </message>
-    <message>
-        <source>Websocket</source>
-        <translation type="vanished">Websocket</translation>
-    </message>
-    <message>
-        <source>Websocket Path</source>
-        <translation type="vanished">Websocketパース</translation>
-    </message>
-    <message>
-        <source>Websocket Hostname</source>
-        <translation type="vanished">Websocketホスト名</translation>
-    </message>
-    <message>
-        <source>Websocket Obfs Password</source>
-        <translation type="vanished">Websocket難読化パスワード</translation>
-    </message>
-    <message>
-        <source>Reset Data Usage after</source>
-        <translation type="vanished">トラフィック用量のリセット日</translation>
-    </message>
-    <message>
         <location filename="../../ui/trojaneditdialog.ui" line="85"/>
         <source>Automation</source>
         <translation>自動化</translation>
@@ -2825,31 +2779,19 @@ See the following link for a reference:
         <source>Auto connect on application start</source>
         <translation>アプリケーション起動時に接続</translation>
     </message>
-    <message>
-        <source>Websocket Double TLS</source>
-        <translation type="vanished">Websocket Double TLS</translation>
-    </message>
-    <message>
-        <source>Mux Concurrency</source>
-        <translation type="vanished">Mux並行数</translation>
-    </message>
-    <message>
-        <source>Mux Idle Timeout</source>
-        <translation type="vanished">Mux Idle Timeout</translation>
-    </message>
 </context>
 <context>
     <name>TrojanGoWidget</name>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="14"/>
         <source>Stream Settings Widget</source>
-        <translation type="unfinished">Stream Settings Widget</translation>
+        <translation>Stream Settings Widget</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="24"/>
         <location filename="../../ui/trojangowidget.ui" line="30"/>
         <source>Mux</source>
-        <translation type="unfinished">Mux</translation>
+        <translation>Mux</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="37"/>
@@ -2857,110 +2799,110 @@ See the following link for a reference:
         <location filename="../../ui/trojangowidget.ui" line="133"/>
         <location filename="../../ui/trojangowidget.ui" line="190"/>
         <source>Enable</source>
-        <translation type="unfinished">有効</translation>
+        <translation>有効</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="44"/>
         <source>Mux Concurrency</source>
-        <translation type="unfinished">Mux並行数</translation>
+        <translation>Mux並行数</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="51"/>
         <source>Mux Idle Timeout</source>
-        <translation type="unfinished">Mux Idle Timeout</translation>
+        <translation>Muxのアイドルタイムアウト</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="65"/>
         <location filename="../../ui/trojangowidget.ui" line="71"/>
         <source>Websocket</source>
-        <translation type="unfinished">Websocket</translation>
+        <translation>Websocket</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="78"/>
         <source>Path</source>
-        <translation type="unfinished">パース</translation>
+        <translation>パース</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="85"/>
         <source>Hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>ホスト名</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="106"/>
         <location filename="../../ui/trojangowidget.ui" line="112"/>
         <source>Shadowsocks</source>
-        <translation type="unfinished"></translation>
+        <translation>Shadowsocks</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="119"/>
         <source>Method</source>
-        <translation type="unfinished">暗号化方式</translation>
+        <translation>暗号化方式</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="126"/>
         <source>Password</source>
-        <translation type="unfinished">パスワード</translation>
+        <translation>パスワード</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="141"/>
         <source>aes-128-gcm</source>
-        <translation type="unfinished">aes-128-gcm</translation>
+        <translation>aes-128-gcm</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="146"/>
         <source>aes-256-gcm</source>
-        <translation type="unfinished">aes-256-gcm</translation>
+        <translation>aes-256-gcm</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="151"/>
         <source>chacha20-ietf-poly1305</source>
-        <translation type="unfinished">chacha20-ietf-poly1305</translation>
+        <translation>chacha20-ietf-poly1305</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="163"/>
         <location filename="../../ui/trojangowidget.ui" line="183"/>
         <source>Transport Plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>トランスポートプラグイン</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="169"/>
         <source>Type</source>
-        <translation type="unfinished">タイプ</translation>
+        <translation>タイプ</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="176"/>
         <source>Command</source>
-        <translation type="unfinished"></translation>
+        <translation>実行ファイルのパース</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="198"/>
         <source>shadowsocks</source>
-        <translation type="unfinished"></translation>
+        <translation>shadowsocks</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="203"/>
         <source>plaintext</source>
-        <translation type="unfinished"></translation>
+        <translation>plaintext</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="208"/>
         <source>other</source>
-        <translation type="unfinished"></translation>
+        <translation>other</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="219"/>
         <source>Arg</source>
-        <translation type="unfinished"></translation>
+        <translation>起動パラメータ</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="226"/>
         <source>Env</source>
-        <translation type="unfinished"></translation>
+        <translation>環境変数</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="233"/>
         <source>Option</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグインオプション</translation>
     </message>
 </context>
 <context>
@@ -3058,10 +3000,6 @@ See the following link for a reference:
         <translation>有効</translation>
     </message>
     <message>
-        <source>Mux</source>
-        <translation type="vanished">Mux</translation>
-    </message>
-    <message>
         <location filename="../../ui/vmesseditdialog.ui" line="161"/>
         <source>Reset Data Usage After</source>
         <translation>トラフィック用量のリセット日</translation>
@@ -3075,10 +3013,6 @@ See the following link for a reference:
         <location filename="../../ui/vmesseditdialog.ui" line="178"/>
         <source>Auto connect on application start</source>
         <translation>アプリケーション起動時に接続</translation>
-    </message>
-    <message>
-        <source>Mux concurrency</source>
-        <translation type="vanished">Mux並行数</translation>
     </message>
     <message>
         <location filename="../../ui/vmesseditdialog.ui" line="126"/>

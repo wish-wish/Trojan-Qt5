@@ -34,6 +34,7 @@ SettingsDialog::SettingsDialog(ConfigHelper *ch, QWidget *parent) :
     ui->startAtLoginCheckbox->setChecked(helper->getGeneralSettings().startAtLogin);
     ui->oneInstanceCheckBox->setChecked(helper->getGeneralSettings().onlyOneInstace);
     ui->availabilityCheckBox->setChecked(helper->getGeneralSettings().checkPortAvailability);
+    ui->checkTimeOnStartupCB->setChecked(helper->getGeneralSettings().checkTimeOnStartup);
     ui->enableNotificationCheckBox->setChecked(helper->getGeneralSettings().enableNotification);
     ui->hideDockIconCheckBox->setChecked(helper->getGeneralSettings().hideDockIcon);
     ui->nativeMenuBarCheckBox->setChecked(helper->getGeneralSettings().nativeMenuBar);
@@ -144,6 +145,7 @@ void SettingsDialog::onAccepted()
     generalSettings.hideWindowOnStartup = ui->hideCheckBox->isChecked();
     generalSettings.onlyOneInstace = ui->oneInstanceCheckBox->isChecked();
     generalSettings.checkPortAvailability = ui->availabilityCheckBox->isChecked();
+    generalSettings.checkTimeOnStartup = ui->checkTimeOnStartupCB->isChecked();
     generalSettings.enableNotification = ui->enableNotificationCheckBox->isChecked();
     generalSettings.hideDockIcon = ui->hideDockIconCheckBox->isChecked();
     generalSettings.nativeMenuBar = ui->nativeMenuBarCheckBox->isChecked();

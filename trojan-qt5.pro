@@ -113,7 +113,7 @@ win32 {
     LIBS += -lwsock32 -lws2_32 -luserenv -liphlpapi
     LIBS += -lCrypt32 -lkernel32 -lpsapi -luser32
     DEFINES += WIN32_LEAN_AND_MEAN
-    LIBS += $$PWD\3rd\trojan-qt5-core\trojan-qt5-core.lib
+    LIBS += $$PWD\3rd\trojan-qt5-core\Trojan-Qt5-Core.lib
     QMAKE_CXXFLAGS_WARN_ON -= -w34100
     QMAKE_CXXFLAGS += -wd4251 -wd4996
     # Otherwise lupdate will not work
@@ -185,7 +185,7 @@ unix:!mac {
 
 unix {
     PKGCONFIG += zbar libqrencode libuv libsodium grpc grpc++ protobuf gpr yaml-cpp
-    LIBS += $$PWD/3rd/trojan-qt5-core/trojan-qt5-core.a
+    LIBS += $$PWD/3rd/trojan-qt5-core/Trojan-Qt5-Core.a
 }
 
 !isEmpty(target.path): INSTALLS += target

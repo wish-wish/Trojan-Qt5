@@ -12,7 +12,8 @@ public:
     RouteTableHelper(QString serverAddress);
     ~RouteTableHelper();
 
-    QString getDefaultGateWay();
+    void getDefaultGateWay();
+    void getTUNTAPInfo();
 
     void set();
     void reset();
@@ -22,9 +23,17 @@ public slots:
     void resetRouteTable();
 
 private:
+    struct Adapter {
+        int index = -1;
+        QString gateWay;
+    };
+
     QString serverAddress;
-    QString gateWay;
-    QString ip;
+    QString serverIp;
+
+    Adapter adapter;
+    Adapter tuntap;
+
     QThread *thread;
 };
 

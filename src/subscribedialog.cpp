@@ -1,4 +1,4 @@
-/**
+﻿/**
   * @brief Subscribe Dialog
   * @ref https://github.com/shadowsocksrr/shadowsocksr-csharp/blob/master/shadowsocks-csharp/View/SubscribeForm.cs
   *

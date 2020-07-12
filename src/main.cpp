@@ -15,6 +15,7 @@
 #include "eventfilter.h"
 #include "themehelper.h"
 #include "ntphelper.h"
+#include "tuntaphelper.h"
 
 #if defined (Q_OS_MAC)
 #include "letsmove/PFMoveApplication.h"

@@ -111,7 +111,7 @@ win32 {
     LIBS += -LC:\TQLibraries\WinSparkle\lib -lWinSparkle
     LIBS += -LC:\TQLibraries\Libsodium\lib -llibsodium
     LIBS += -LC:\TQLibraries\Libuv\lib -llibuv
-    LIBS += -LC;\TQLibraries\Trojan-Qt5-Route -lTrojan-Qt5-Route
+    LIBS += -LC:\TQLibraries\Trojan-Qt5-Route\lib -lTrojan-Qt5-Route
     LIBS += -lwsock32 -lws2_32 -luserenv -liphlpapi
     LIBS += -lCrypt32 -lkernel32 -lpsapi -luser32
     DEFINES += WIN32_LEAN_AND_MEAN
@@ -203,6 +203,7 @@ SOURCES += \
     src/struct/trojangostruct.cpp \
     src/struct/v2raystruct.cpp \
     src/utils/ntphelper.cpp \
+    src/utils/tuntaphelper.cpp \
     src/validator/generalvalidator.cpp \
     src/validator/ip4validator.cpp \
     src/validator/portvalidator.cpp \
@@ -272,6 +273,7 @@ HEADERS += \
     src/struct/trojangostruct.h \
     src/struct/v2raystruct.h \
     src/utils/ntphelper.h \
+    src/utils/tuntaphelper.h \
     src/validator/ip4validator.h \
     src/validator/portvalidator.h \
     src/validator/generalvalidator.h \

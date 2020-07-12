@@ -16,7 +16,9 @@
 #include "themehelper.h"
 #include "ntphelper.h"
 
+#if defined (Q_OS_MAC)
 #include "letsmove/PFMoveApplication.h"
+#endif
 
 #if defined (Q_OS_WIN)
 #include "urlschemeregister.h"
@@ -62,6 +64,7 @@ void setupApplication(QApplication &a)
         a.setFont(QFont("Segoe UI", 9, QFont::Normal, false));
     }
 #endif
+
 #if defined(Q_OS_WIN) || defined(Q_OS_MAC)
     QIcon::setThemeName("Breeze");
 #endif
@@ -124,6 +127,7 @@ int main(int argc, char *argv[])
     qRegisterMetaTypeStreamOperators<TQSubscribe>("TQSubscribe");
 
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
 #if QT_VERSION >= QT_VERSION_CHECK(5, 14, 0)
     QGuiApplication::setHighDpiScaleFactorRoundingPolicy(Qt::HighDpiScaleFactorRoundingPolicy::PassThrough);
 #endif

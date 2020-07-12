@@ -1,5 +1,5 @@
 #include "snellthread.h"
-#include "trojan-qt5-core.h"
+#include "Trojan-Qt5-Core.h"
 
 SnellThread::SnellThread(QString filePath) : filePath(filePath)
 {}

@@ -103,6 +103,7 @@ win32 {
     INCLUDEPATH += C:\TQLibraries\Libsodium\include
     INCLUDEPATH += C:\TQLibraries\Libuv\include
     INCLUDEPATH += C:\TQLibraries\Grpc\include
+    INCLUDEPATH += C:\TQLibraries\Trojan-Qt5-Route\include
     INCLUDEPATH += $$PWD/3rd/yaml-cpp/include
     LIBS += -LC:\TQLibraries\ZBar\lib -llibzbar-0
     LIBS += -LC:\TQLibraries\OpenSSL-Win32\lib -llibcrypto -llibssl
@@ -110,6 +111,7 @@ win32 {
     LIBS += -LC:\TQLibraries\WinSparkle\lib -lWinSparkle
     LIBS += -LC:\TQLibraries\Libsodium\lib -llibsodium
     LIBS += -LC:\TQLibraries\Libuv\lib -llibuv
+    LIBS += -LC;\TQLibraries\Trojan-Qt5-Route -lTrojan-Qt5-Route
     LIBS += -lwsock32 -lws2_32 -luserenv -liphlpapi
     LIBS += -lCrypt32 -lkernel32 -lpsapi -luser32
     DEFINES += WIN32_LEAN_AND_MEAN

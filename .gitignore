@@ -5,8 +5,8 @@
 build
 tun2socks.h
 tun2socks.a
-trojan-qt5-core.a
-trojan-qt5-core.h
+Trojan-Qt5-Core.a
+Trojan-Qt5-Core.h
 *.pb.h
 *.pb.cc
 src/proxyapi/*.pb.h

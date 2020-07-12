@@ -1,7 +1,7 @@
 #include "confighelper.h"
 #include "tun2socksthread.h"
 #include "utils.h"
-#include "trojan-qt5-core.h"
+#include "Trojan-Qt5-Core.h"
 
 #include <QProcess>
 

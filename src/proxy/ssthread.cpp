@@ -1,5 +1,5 @@
 #include "ssthread.h"
-#include "trojan-qt5-core.h"
+#include "Trojan-Qt5-Core.h"
 
 SSThread::SSThread(QString clientAddr,
     QString serverAddr,

@@ -8,7 +8,7 @@
 #include "ssgoapi.h"
 #include "v2rayapi.h"
 #include "trojangoapi.h"
-#include "trojan-qt5-core.h"
+#include "Trojan-Qt5-Core.h"
 #include "SSRThread.hpp"
 #include "utils.h"
 #include "logger.h"

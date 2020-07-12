@@ -1,5 +1,5 @@
 #include "v2raythread.h"
-#include "trojan-qt5-core.h"
+#include "Trojan-Qt5-Core.h"
 
 #include <QDebug>
 

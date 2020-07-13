@@ -74,6 +74,7 @@ This project is based on:
 - [sysproxy](https://github.com/Noisyfox/sysproxy/) Apache-2.0
 - [qbittorrent](https://github.com/qbittorrent/qBittorrent) GPL-2.0
 - [v2ray-core](https://github.com/v2ray/v2ray-core) MIT
+- [Netch](https://github.com/NetchX/Netch) MIT
 
 ## UI Design
 - [@erdongchan]()

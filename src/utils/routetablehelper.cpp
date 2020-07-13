@@ -65,8 +65,10 @@ void RouteTableHelper::getDefaultGateWay()
 
 void RouteTableHelper::getTUNTAPInfo()
 {
+#if defined (Q_OS_WIN)
     TUNTAPHelper *tth = new TUNTAPHelper();
     QString ComponentID = tth->GetComponentID();
+
     PIP_ADAPTER_INFO pIpAdapterInfo = new IP_ADAPTER_INFO();
     unsigned long stSize = sizeof(IP_ADAPTER_INFO);
     int nRel = GetAdaptersInfo(pIpAdapterInfo,&stSize);
@@ -81,6 +83,8 @@ void RouteTableHelper::getTUNTAPInfo()
         while (pIpAdapterInfo) {
             if (pIpAdapterInfo->AdapterName == ComponentID) {
                 tuntap.index = pIpAdapterInfo->Index;
+
+                Logger::debug(QString("[Advance Mode] find TUN/TAP Adapter: ").arg(pIpAdapterInfo->AdapterName));
             }
             pIpAdapterInfo = pIpAdapterInfo->Next;
         }
@@ -89,6 +93,7 @@ void RouteTableHelper::getTUNTAPInfo()
     if (pIpAdapterInfo) {
         delete pIpAdapterInfo;
     }
+#endif
 }
 
 void RouteTableHelper::set()

@@ -68,6 +68,7 @@ void RouteTableHelper::getTUNTAPInfo()
 #if defined (Q_OS_WIN)
     TUNTAPHelper *tth = new TUNTAPHelper();
     QString ComponentID = tth->GetComponentID();
+    BOOL IS_TAP_FIND = FALSE;
 
     PIP_ADAPTER_INFO pIpAdapterInfo = new IP_ADAPTER_INFO();
     unsigned long stSize = sizeof(IP_ADAPTER_INFO);
@@ -81,10 +82,11 @@ void RouteTableHelper::getTUNTAPInfo()
 
     if (nRel == ERROR_SUCCESS) {
         while (pIpAdapterInfo) {
-            if (pIpAdapterInfo->AdapterName == ComponentID) {
+            if (pIpAdapterInfo->AdapterName == ComponentID && !IS_TAP_FIND) {
                 tuntap.index = pIpAdapterInfo->Index;
+                IS_TAP_FIND = TRUE;
 
-                Logger::debug(QString("[Advance Mode] find TUN/TAP Adapter: ").arg(pIpAdapterInfo->AdapterName));
+                Logger::debug(QString("[Advance Mode] find TUN/TAP Adapter: %1").arg(pIpAdapterInfo->AdapterName));
             }
             pIpAdapterInfo = pIpAdapterInfo->Next;
         }

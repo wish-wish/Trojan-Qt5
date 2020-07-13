@@ -45,13 +45,13 @@ void RouteTableHelper::getDefaultGateWay()
     task->start("bash", param);
     task->waitForFinished();
     gateWay = task->readAllStandardOutput();
-    gateWay = gateway.remove("\n");
+    gateWay = gateWay.remove("\n");
 #elif defined (Q_OS_LINUX)
     param << "-c" << "route -n | awk '{print $2}' | awk 'NR == 3 {print}'";
     task->start("bash", param);
     task->waitForFinished();
     gateWay = task->readAllStandardOutput();
-    gateWay = gateway.remove("\n");
+    gateWay = gateWay.remove("\n");
 #endif
     // let's process domain & ip address
     QRegExp pattern("^([a-zA-Z0-9-]+.)+([a-zA-Z])+$");

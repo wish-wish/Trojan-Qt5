@@ -1,3 +1,14 @@
+trojan-qt5 (1.4.1-1) unstable; urgency=medium
+
+    * Use dll instead of route command
+    * Fix go-tun2socks flash window console
+    * Update V2Ray-Core to v4.26.0
+    * Update Trojan-Go to v0.8.0
+    * More Detail Graph Stats
+    * Fix High Dpi Icon look blurry
+
+ -- TheWanderingCoel <thewanderingcoel@protonmail.com>  Mon, 13 July 2020 18:02:00 +8000
+
 trojan-qt5 (1.4.0-1) unstable; urgency=medium
 
     * Use dll instead of route command

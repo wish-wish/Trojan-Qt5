@@ -187,20 +187,20 @@ SpeedPlotView::SpeedPlotView(QWidget *parent) : QGraphicsView(parent), m_current
     directUpPen.setWidthF(1.5);
     directUpPen.setColor(QColor(helper->getGraphSettings().directUploadSpeedColor));
     if (helper->getGraphSettings().detailOutboundProxy) {
-        m_properties[OUTBOUND_PROXY_UP] = GraphProperties(tr("Proxy ↑"), proxyUpPen);
+        m_properties[OUTBOUND_PROXY_UP] = GraphProperties(tr(u8"Proxy ↑"), proxyUpPen);
         m_properties[OUTBOUND_PROXY_UP].enable = true;
-        m_properties[OUTBOUND_PROXY_DOWN] = GraphProperties(tr("Proxy ↓"), proxyDownPen);
+        m_properties[OUTBOUND_PROXY_DOWN] = GraphProperties(tr(u8"Proxy ↓"), proxyDownPen);
         m_properties[OUTBOUND_PROXY_DOWN].enable = true;
         if (helper->getGraphSettings().detailOutboundDirect) {
-            m_properties[OUTBOUND_DIRECT_UP] = GraphProperties(tr("Direct ↑"), directUpPen);
+            m_properties[OUTBOUND_DIRECT_UP] = GraphProperties(tr(u8"Direct ↑"), directUpPen);
             m_properties[OUTBOUND_DIRECT_UP].enable = true;
-            m_properties[OUTBOUND_DIRECT_DOWN] = GraphProperties(tr("Direct ↓"), directDownPen);
+            m_properties[OUTBOUND_DIRECT_DOWN] = GraphProperties(tr(u8"Direct ↓"), directDownPen);
             m_properties[OUTBOUND_DIRECT_DOWN].enable = true;
         }
     } else {
-        m_properties[INBOUND_UP] = GraphProperties(tr("Total ↑"), proxyUpPen);
+        m_properties[INBOUND_UP] = GraphProperties(tr(u8"Total ↑"), proxyUpPen);
         m_properties[INBOUND_UP].enable = true;
-        m_properties[INBOUND_DOWN] = GraphProperties(tr("Total ↓"), proxyDownPen);
+        m_properties[INBOUND_DOWN] = GraphProperties(tr(u8"Total ↓"), proxyDownPen);
         m_properties[INBOUND_DOWN].enable = true;
     }
 }

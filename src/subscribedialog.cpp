@@ -95,7 +95,7 @@ void SubscribeDialog::UpdateSelected(int index)
         }
         else
         {
-            ui->recentUpdateLineEdit->setText("(｢･ω･)｢");
+            ui->recentUpdateLineEdit->setText(u8"(｢･ω･)｢");
         }
     }
 
@@ -136,7 +136,7 @@ void SubscribeDialog::onAdd()
     SetSelectIndex(select_index);
 
     ui->urlLineEdit->setEnabled(true);
-    ui->groupNameLineEdit->setDisabled(true);
+    ui->groupNameLineEdit->setEnabled(true);
 }
 
 void SubscribeDialog::onDelete()

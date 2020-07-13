@@ -468,27 +468,27 @@ wikiや説明ドキュメントをご確認ください</translation>
     <message>
         <location filename="../../ui/mainwindow.ui" line="597"/>
         <source>&amp;Import Connections from gui-config.json</source>
-        <translation>gui-config.jsonから接続を取り込む</translation>
+        <translation>gui-config.jsonから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="600"/>
         <source>Import connections from old version configuration file</source>
-        <translation>過去バージョンの構成ファイルから接続を取り込む</translation>
+        <translation>過去バージョンの構成ファイルから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="610"/>
         <source>&amp;Import Connections from config.yaml</source>
-        <translation>config.yamlから接続を取り込む</translation>
+        <translation>config.yamlから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="613"/>
         <source>Import connections from clash configuration file</source>
-        <translation>clashの構成ファイルから接続を取り込む</translation>
+        <translation>clashの構成ファイルから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="627"/>
         <source>From &amp;config.json</source>
-        <translation>config.jsonから接続を取り込む</translation>
+        <translation>config.jsonから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="641"/>
@@ -578,12 +578,12 @@ wikiや説明ドキュメントをご確認ください</translation>
     <message>
         <location filename="../../ui/mainwindow.ui" line="801"/>
         <source>From shadowrocket.json</source>
-        <translation>shadowrocket.jsonから接続を取り込む</translation>
+        <translation>shadowrocket.jsonから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="811"/>
         <source>PasteBoardURI</source>
-        <translation>クリップボードからURIを取り込む</translation>
+        <translation>クリップボードからURIをインポート</translation>
     </message>
     <message>
         <location filename="../../ui/mainwindow.ui" line="816"/>
@@ -628,7 +628,7 @@ wikiや説明ドキュメントをご確認ください</translation>
     <message>
         <location filename="../../src/mainwindow.cpp" line="370"/>
         <source>Import Connections from gui-config.json</source>
-        <translation>gui-config.jsonから接続を取り込む</translation>
+        <translation>gui-config.jsonから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="383"/>
@@ -638,7 +638,7 @@ wikiや説明ドキュメントをご確認ください</translation>
     <message>
         <location filename="../../src/mainwindow.cpp" line="395"/>
         <source>Import Connections from config.yaml</source>
-        <translation>config.yamlから接続を取り込む</translation>
+        <translation>config.yamlから接続をインポート</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="408"/>
@@ -1008,7 +1008,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/routewidget.ui" line="143"/>
         <source>Import Rules</source>
-        <translation>ルールを取り込む</translation>
+        <translation>ルールをインポート</translation>
     </message>
     <message>
         <location filename="../../ui/routewidget.ui" line="150"/>
@@ -1018,7 +1018,7 @@ See the following link for a reference:
     <message>
         <location filename="../../src/widget/routewidget.cpp" line="134"/>
         <source>Import Rules from rules.json</source>
-        <translation>rules.jsonからルールを取り込む</translation>
+        <translation>rules.jsonからルールをインポート</translation>
     </message>
     <message>
         <location filename="../../src/widget/routewidget.cpp" line="162"/>
@@ -1557,7 +1557,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/settingsdialog.ui" line="191"/>
         <source>Allow Only one instance running</source>
-        <translation>インスタンスの同時実行数を一つにする</translation>
+        <translation>アプリケーションの同時実行数を１に限定</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="198"/>
@@ -1999,7 +1999,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/settingsdialog.ui" line="1046"/>
         <source>Geo Path</source>
-        <translation>Geoファイルパース</translation>
+        <translation>Geoファイルパス</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="1056"/>
@@ -2009,7 +2009,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/settingsdialog.ui" line="1066"/>
         <source>Cert</source>
-        <translation>Certパース</translation>
+        <translation>Certパス</translation>
     </message>
     <message>
         <location filename="../../ui/settingsdialog.ui" line="1076"/>
@@ -2331,37 +2331,37 @@ See the following link for a reference:
         <location filename="../../src/statusnotifier.cpp" line="85"/>
         <location filename="../../src/statusnotifier.mm" line="84"/>
         <source>Update local PAC from Lan IP list</source>
-        <translation>ローカルPACをLan IP迂回にアップデート</translation>
+        <translation>ローカルPACをLan IP迂回リストに更新</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="86"/>
         <location filename="../../src/statusnotifier.mm" line="85"/>
         <source>Update local PAC from Chn White list</source>
-        <translation>ローカルPACを中国ドメイン迂回にアップデート</translation>
+        <translation>ローカルPACを中国ドメイン迂回リストに更新</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="87"/>
         <location filename="../../src/statusnotifier.mm" line="86"/>
         <source>Update local from Chn Advance White list</source>
-        <translation>ローカルPACをアドバンス中国ドメイン迂回にアップデート</translation>
+        <translation>ローカルPACをアドバンス中国ドメイン迂回リストに更新</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="88"/>
         <location filename="../../src/statusnotifier.mm" line="87"/>
         <source>Update local PAC from Chn IP list</source>
-        <translation>ローカルPACを中国IP迂回にアップデート</translation>
+        <translation>ローカルPACを中国IP迂回リストに更新</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="89"/>
         <location filename="../../src/statusnotifier.mm" line="88"/>
         <source>Update local PAC from GFWList</source>
-        <translation>ローカルPACをGFWListにアップデート</translation>
+        <translation>ローカルPACをGFWListに更新</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="90"/>
         <location filename="../../src/statusnotifier.mm" line="89"/>
         <source>Update local PAC from Chn Only list</source>
-        <translation>ローカルPACを訪中モードにアップデート（プロキシに中国のドメインしか経由させない）</translation>
+        <translation>ローカルPACを訪中モードに更新（プロキシに中国のドメインしか経由させない）</translation>
     </message>
     <message>
         <location filename="../../src/statusnotifier.cpp" line="91"/>
@@ -2528,7 +2528,7 @@ See the following link for a reference:
         <location filename="../../ui/streamwidget.ui" line="179"/>
         <location filename="../../ui/streamwidget.ui" line="213"/>
         <source>Path</source>
-        <translation>パース</translation>
+        <translation>パス</translation>
     </message>
     <message>
         <location filename="../../ui/streamwidget.ui" line="193"/>
@@ -2820,7 +2820,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/trojangowidget.ui" line="78"/>
         <source>Path</source>
-        <translation>パース</translation>
+        <translation>パス</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="85"/>
@@ -2872,7 +2872,7 @@ See the following link for a reference:
     <message>
         <location filename="../../ui/trojangowidget.ui" line="176"/>
         <source>Command</source>
-        <translation>実行ファイルのパース</translation>
+        <translation>実行ファイルのパス</translation>
     </message>
     <message>
         <location filename="../../ui/trojangowidget.ui" line="198"/>

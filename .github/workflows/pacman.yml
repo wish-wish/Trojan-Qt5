@@ -67,6 +67,8 @@ jobs:
           build() {
               export _TROJAN_QT5_BUILD_INFO_='Trojan-Qt5 build from ArchLinux'
               cd "\${srcdir}/Trojan-Qt5/3rd/trojan-qt5-core"
+              go env -w GOPROXY=direct
+              go env -w GOSUMDB=off
               go build --tags 'api client router' -buildmode=c-archive
               cd "\${srcdir}/Trojan-Qt5"
               mkdir -p build && cd build
